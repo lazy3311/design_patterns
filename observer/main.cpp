@@ -10,10 +10,10 @@ int main(int argc, char **argv)
     std::cout << "-------------------------------------------------------------------" << std::endl;
     std::cout << "                  OBSERVER PATTERN" << std::endl;
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "The strategy pattern is a behavioral software design pattern that \n\\
-    \renables selecting an algorithm at runtime. Instead of implementing\n\\
-    \ra single algorithm directly, code receives run-time instructions as\n\\
-    \rto which in a family of algorithms to use." << std::endl;
+    std::cout << "The observer pattern is a software design pattern in which an object,\n\\
+    \rcalled the subject, maintains a list of its dependents, called observers, \n\\
+    \rand notifies them automatically of any state changes, \n\\
+    \rusually by calling one of their methods." << std::endl;
     std::cout << "-------------------------------------------------------------------\n" << std::endl;
     
     std::list<IObserver *> registered_observer;
