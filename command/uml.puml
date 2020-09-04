@@ -1,0 +1,36 @@
+@startuml command_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+abstract class Command {
+    + {abstract} execute();
+}
+
+class ConcreateCommand {
+    + execute();
+}
+
+class Invoker <<TvRemote>> {
+    - receiver
+    + command_execute();
+}
+
+class Receiver <<Television>> {
+    + action();
+}
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+Client --> Invoker 
+
+Invoker o-right-> Command
+Command <|-down- ConcreateCommand
+ConcreateCommand -right-> Receiver
+
+note "DeviceButton will be \ninterface to TvRemote \ncommand execute" as N1
+N1 -up- Invoker
+note "These are TurnTvOn, TurnTvOff" as N2
+N2 -up- ConcreateCommand
+
+@enduml

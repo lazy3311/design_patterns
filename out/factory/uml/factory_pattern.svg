@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="412px" preserveAspectRatio="none" style="width:535px;height:412px;background:#777777;" version="1.1" viewBox="0 0 535 412" width="535px" zoomAndPan="magnify"><defs><filter height="300%" id="fcaohjf4yo1l4" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[2c589014e840926a718801db2289e0a7]
+class Creator--><rect fill="#2E2E2E" filter="url(#fcaohjf4yo1l4)" height="64.978" id="Creator" style="stroke: #1B1B1B; stroke-width: 1.5;" width="167" x="196.5" y="114"/><ellipse cx="231" cy="132.0867" fill="#A9DCDF" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M234.9063,135.5867 L232.7813,135.5867 L232.2188,133.9773 L229.2656,133.9773 L228.7031,135.5867 L226.625,135.5867 L229.5781,127.5867 L231.9531,127.5867 L234.9063,135.5867 Z M231.7188,132.5085 L230.75,129.6335 L229.7656,132.5085 L231.7188,132.5085 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="95" x="245" y="129.2104">«FactoryAnimal»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="43" x="271" y="142.8638">Creator</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="197.5" x2="362.5" y1="150.1733" y2="150.1733"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="197.5" x2="362.5" y1="158.1733" y2="158.1733"/><ellipse cx="207.5" cy="169.1733" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="144" x="213.5" y="172.3838">Product create_product();</text><!--MD5=[57be1feebd177f9c6dc48c47dac5bff1]
+class ConcreateCreator--><rect fill="#2E2E2E" filter="url(#fcaohjf4yo1l4)" height="64.978" id="ConcreateCreator" style="stroke: #1B1B1B; stroke-width: 1.5;" width="167" x="193.5" y="252"/><ellipse cx="222.6" cy="270.0867" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M223.2406,274.2429 Q222.35,274.2429 221.5844,273.9773 Q220.8344,273.7117 220.2875,273.196 Q219.7563,272.6804 219.4438,271.8992 Q219.1469,271.1179 219.1469,270.1023 Q219.1469,269.1492 219.4281,268.3835 Q219.725,267.6023 220.2719,267.0398 Q220.7875,266.5085 221.5531,266.2273 Q222.3344,265.9304 223.2406,265.9304 Q223.7406,265.9304 224.1469,265.9929 Q224.5531,266.0398 224.8969,266.1335 Q225.2563,266.2429 225.5531,266.3679 Q225.85,266.4929 226.0688,266.6023 L226.0688,268.5398 L225.8344,268.5398 Q225.6781,268.4148 225.4438,268.2429 Q225.225,268.0554 224.9281,267.8835 Q224.6313,267.7117 224.2875,267.6023 Q223.9438,267.4773 223.5531,267.4773 Q223.1156,267.4773 222.725,267.6179 Q222.3344,267.7429 222.0063,268.071 Q221.6938,268.3679 221.4906,268.8835 Q221.3031,269.3835 221.3031,270.1023 Q221.3031,270.8523 221.5063,271.3679 Q221.725,271.8679 222.0375,272.1492 Q222.3656,272.446 222.7719,272.571 Q223.1781,272.696 223.5688,272.696 Q223.9438,272.696 224.3031,272.5867 Q224.6781,272.4773 224.9906,272.2742 Q225.2563,272.1335 225.475,271.9617 Q225.7094,271.7742 225.85,271.6492 L226.0688,271.6492 L226.0688,273.5554 Q225.7719,273.696 225.4906,273.821 Q225.225,273.9304 224.9125,274.0085 Q224.5219,274.1179 224.1781,274.1804 Q223.8344,274.2429 223.2406,274.2429 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="251.9" y="267.2104">«FactoryPet»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="103" x="237.4" y="280.8638">ConcreateCreator</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="194.5" x2="359.5" y1="288.1733" y2="288.1733"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="194.5" x2="359.5" y1="296.1733" y2="296.1733"/><ellipse cx="204.5" cy="307.1733" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="144" x="210.5" y="310.3838">Product create_product();</text><!--MD5=[72136138052d025cffdce3c22fbd185f]
+class Product--><rect fill="#2E2E2E" filter="url(#fcaohjf4yo1l4)" height="90.5874" id="Product" style="stroke: #1B1B1B; stroke-width: 1.5;" width="116" x="400" y="101"/><ellipse cx="430.45" cy="119.0867" fill="#A9DCDF" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M434.3563,122.5867 L432.2313,122.5867 L431.6688,120.9773 L428.7156,120.9773 L428.1531,122.5867 L426.075,122.5867 L429.0281,114.5867 L431.4031,114.5867 L434.3563,122.5867 Z M431.1688,119.5085 L430.2,116.6335 L429.2156,119.5085 L431.1688,119.5085 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="53" x="443.55" y="116.2104">«Animal»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="43" x="448.55" y="129.8638">Product</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="401" x2="515" y1="137.1733" y2="137.1733"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="408" y="145.1733"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="73" x="417" y="151.3838">string name;</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="401" x2="515" y1="157.978" y2="157.978"/><ellipse cx="411" cy="168.978" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="417" y="172.1885">product_name();</text><ellipse cx="411" cy="181.7827" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="417" y="184.9932">do_work();</text><!--MD5=[1ad4fef468646ae404ccfd1c21bc910f]
+class ConcreateProduct--><rect fill="#2E2E2E" filter="url(#fcaohjf4yo1l4)" height="54.8047" id="ConcreateProduct" style="stroke: #1B1B1B; stroke-width: 1.5;" width="128" x="396" y="257"/><ellipse cx="408" cy="270" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M408.6406,274.1563 Q407.75,274.1563 406.9844,273.8906 Q406.2344,273.625 405.6875,273.1094 Q405.1563,272.5938 404.8438,271.8125 Q404.5469,271.0313 404.5469,270.0156 Q404.5469,269.0625 404.8281,268.2969 Q405.125,267.5156 405.6719,266.9531 Q406.1875,266.4219 406.9531,266.1406 Q407.7344,265.8438 408.6406,265.8438 Q409.1406,265.8438 409.5469,265.9063 Q409.9531,265.9531 410.2969,266.0469 Q410.6563,266.1563 410.9531,266.2813 Q411.25,266.4063 411.4688,266.5156 L411.4688,268.4531 L411.2344,268.4531 Q411.0781,268.3281 410.8438,268.1563 Q410.625,267.9688 410.3281,267.7969 Q410.0313,267.625 409.6875,267.5156 Q409.3438,267.3906 408.9531,267.3906 Q408.5156,267.3906 408.125,267.5313 Q407.7344,267.6563 407.4063,267.9844 Q407.0938,268.2813 406.8906,268.7969 Q406.7031,269.2969 406.7031,270.0156 Q406.7031,270.7656 406.9063,271.2813 Q407.125,271.7813 407.4375,272.0625 Q407.7656,272.3594 408.1719,272.4844 Q408.5781,272.6094 408.9688,272.6094 Q409.3438,272.6094 409.7031,272.5 Q410.0781,272.3906 410.3906,272.1875 Q410.6563,272.0469 410.875,271.875 Q411.1094,271.6875 411.25,271.5625 L411.4688,271.5625 L411.4688,273.4688 Q411.1719,273.6094 410.8906,273.7344 Q410.625,273.8438 410.3125,273.9219 Q409.9219,274.0313 409.5781,274.0938 Q409.2344,274.1563 408.6406,274.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="419" y="274.3748">ConcreateProduct</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="397" x2="523" y1="283" y2="283"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="397" x2="523" y1="291" y2="291"/><ellipse cx="407" cy="302" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="413" y="305.2104">do_work();</text><path d="M401.5,377 L401.5,400.3687 A0,0 0 0 0 401.5,400.3687 L518.5,400.3687 A0,0 0 0 0 518.5,400.3687 L518.5,387 L508.5,377 L464,377 L460,312.03 L456,377 L401.5,377 A0,0 0 0 0 401.5,377 " fill="#BB6600" filter="url(#fcaohjf4yo1l4)" style="stroke: #662200; stroke-width: 1.0;"/><path d="M508.5,377 L508.5,387 L518.5,387 L508.5,377 " fill="#BB6600" style="stroke: #662200; stroke-width: 1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="96" x="407.5" y="393.0591">Cat Dog Animals</text><!--MD5=[0ba5ee7700168656dc1b457c6fe9fdac]
+entity Client--><rect fill="#556B2F" filter="url(#fcaohjf4yo1l4)" height="33.3687" style="stroke: #1B1B1B; stroke-width: 1.5;" width="53" x="341.5" y="8"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="33" x="351.5" y="29.0591">Client</text><path d="M6,273 L6,296.3687 A0,0 0 0 0 6,296.3687 L158,296.3687 A0,0 0 0 0 158,296.3687 L158,291 L193.45,284.5 L158,283 L158,283 L148,273 L6,273 A0,0 0 0 0 6,273 " fill="#BB6600" filter="url(#fcaohjf4yo1l4)" style="stroke: #662200; stroke-width: 1.0;"/><path d="M148,273 L148,283 L158,283 L148,273 " fill="#BB6600" style="stroke: #662200; stroke-width: 1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="131" x="12" y="289.0591">will return new product</text><!--MD5=[3f6fd1a1132fcd48c058ca28acf5b47a]
+link Client to Creator--><path d="M356.5,41.19 C343.86,58.41 323.16,86.65 306.47,109.4 " fill="none" id="Client-&gt;Creator" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="303.41,113.58,311.9519,108.6773,306.3619,109.5444,305.4948,103.9543,303.41,113.58" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[f99f60d4f22462933b3e132a47fc1229]
+link Client to Product--><path d="M379.77,41.19 C390.31,55.24 406.35,76.63 421.17,96.39 " fill="none" id="Client-&gt;Product" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="424.51,100.84,422.31,91.24,421.51,96.84,415.91,96.04,424.51,100.84" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[0da3eb2f7c3c0a0929fe2fa08f691436]
+reverse link Creator to ConcreateCreator--><path d="M278.86,199.11 C278.47,216.78 278.05,236.02 277.7,251.66 " fill="none" id="Creator&lt;-ConcreateCreator" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="271.86,198.88,279.3,179.04,285.86,199.19,271.86,198.88" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[058eefa39f46b54b17e56ac3fa4688ee]
+reverse link Product to ConcreateProduct--><path d="M458.95,212.27 C459.18,227.99 459.42,243.93 459.61,256.74 " fill="none" id="Product&lt;-ConcreateProduct" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="451.95,212.13,458.65,192.03,465.95,211.93,451.95,212.13" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[026123c145aa511b9fc4179c28c07766]
+link ConcreateCreator to ConcreateProduct--><path d="M360.64,284.5 C370.66,284.5 380.69,284.5 390.71,284.5 " fill="none" id="ConcreateCreator-&gt;ConcreateProduct" style="stroke: #FFFFFF; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#FFFFFF" points="395.96,284.5,386.96,280.5,390.96,284.5,386.96,288.5,395.96,284.5" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[801086685c27d61f259709b8b2fcdc57]
+@startuml factory_pattern
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+abstract class Creator <<FactoryAnimal>> {
+    + {abstract} Product create_product();
+}
+class ConcreateCreator <<FactoryPet>> {
+    + Product create_product();
+}
+
+abstract Product <<Animal>> {
+    - string name;
+    + product_name();
+    + do_work();
+}
+
+class ConcreateProduct {
+    + do_work();
+}
+
+note "Cat Dog Animals" as N1
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+Client - -> Creator
+Client - -> Product
+
+Creator <|-down- ConcreateCreator
+Product <|-down- ConcreateProduct 
+' Creator .right.> Product
+ConcreateCreator .right.> ConcreateProduct
+
+' note left of Creator : Factory abstract class
+' note right of Product : Abstract product class
+note left of ConcreateCreator : will return new product
+N1 .up. ConcreateProduct
+' - - Below is sample to connect notes - -
+' note "Product will be created at creator" as N1
+' Creator .. N1
+' N1 .. ConcreateCreator
+@enduml
+
+@startuml factory_pattern
+
+
+
+
+
+
+
+
+
+skinparam stereotypeCBackgroundColor BB6600
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor BB6600
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor BB6600
+  endColor 662200
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+abstract class Creator <<FactoryAnimal>> {
+    + {abstract} Product create_product();
+}
+class ConcreateCreator <<FactoryPet>> {
+    + Product create_product();
+}
+
+abstract Product <<Animal>> {
+    - string name;
+    + product_name();
+    + do_work();
+}
+
+class ConcreateProduct {
+    + do_work();
+}
+
+note "Cat Dog Animals" as N1
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+Client - -> Creator
+Client - -> Product
+
+Creator <|-down- ConcreateCreator
+Product <|-down- ConcreateProduct 
+ConcreateCreator .right.> ConcreateProduct
+
+note left of ConcreateCreator : will return new product
+N1 .up. ConcreateProduct
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 15:05:57 IST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.8+10-post-Ubuntu-0ubuntu120.04
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: IN
+--></g></svg>

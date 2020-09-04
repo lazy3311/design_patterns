@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="399px" preserveAspectRatio="none" style="width:476px;height:399px;background:#777777;" version="1.1" viewBox="0 0 476 399" width="476px" zoomAndPan="magnify"><defs><filter height="300%" id="fphactf38m1q1" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[521817ab83e81da341a3f4b5e91bae41]
+class Command--><rect fill="#2E2E2E" filter="url(#fphactf38m1q1)" height="54.8047" id="Command" style="stroke: #1B1B1B; stroke-width: 1.5;" width="84" x="214" y="112.5"/><ellipse cx="226" cy="125.5" fill="#A9DCDF" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M229.9063,129 L227.7813,129 L227.2188,127.3906 L224.2656,127.3906 L223.7031,129 L221.625,129 L224.5781,121 L226.9531,121 L229.9063,129 Z M226.7188,125.9219 L225.75,123.0469 L224.7656,125.9219 L226.7188,125.9219 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="58" x="237" y="129.8748">Command</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="215" x2="297" y1="138.5" y2="138.5"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="215" x2="297" y1="146.5" y2="146.5"/><ellipse cx="225" cy="157.5" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="231" y="160.7104">execute();</text><!--MD5=[4c88378f7bc2d18c7c913c778f41ba49]
+class ConcreateCommand--><rect fill="#2E2E2E" filter="url(#fphactf38m1q1)" height="54.8047" id="ConcreateCommand" style="stroke: #1B1B1B; stroke-width: 1.5;" width="144" x="193" y="244"/><ellipse cx="205" cy="257" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M205.6406,261.1563 Q204.75,261.1563 203.9844,260.8906 Q203.2344,260.625 202.6875,260.1094 Q202.1563,259.5938 201.8438,258.8125 Q201.5469,258.0313 201.5469,257.0156 Q201.5469,256.0625 201.8281,255.2969 Q202.125,254.5156 202.6719,253.9531 Q203.1875,253.4219 203.9531,253.1406 Q204.7344,252.8438 205.6406,252.8438 Q206.1406,252.8438 206.5469,252.9063 Q206.9531,252.9531 207.2969,253.0469 Q207.6563,253.1563 207.9531,253.2813 Q208.25,253.4063 208.4688,253.5156 L208.4688,255.4531 L208.2344,255.4531 Q208.0781,255.3281 207.8438,255.1563 Q207.625,254.9688 207.3281,254.7969 Q207.0313,254.625 206.6875,254.5156 Q206.3438,254.3906 205.9531,254.3906 Q205.5156,254.3906 205.125,254.5313 Q204.7344,254.6563 204.4063,254.9844 Q204.0938,255.2813 203.8906,255.7969 Q203.7031,256.2969 203.7031,257.0156 Q203.7031,257.7656 203.9063,258.2813 Q204.125,258.7813 204.4375,259.0625 Q204.7656,259.3594 205.1719,259.4844 Q205.5781,259.6094 205.9688,259.6094 Q206.3438,259.6094 206.7031,259.5 Q207.0781,259.3906 207.3906,259.1875 Q207.6563,259.0469 207.875,258.875 Q208.1094,258.6875 208.25,258.5625 L208.4688,258.5625 L208.4688,260.4688 Q208.1719,260.6094 207.8906,260.7344 Q207.625,260.8438 207.3125,260.9219 Q206.9219,261.0313 206.5781,261.0938 Q206.2344,261.1563 205.6406,261.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="118" x="216" y="261.3748">ConcreateCommand</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="194" x2="336" y1="270" y2="270"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="194" x2="336" y1="278" y2="278"/><ellipse cx="204" cy="289" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="210" y="292.2104">execute();</text><!--MD5=[d01e39adb8cc3240d418de1aedb45e74]
+class Invoker--><rect fill="#2E2E2E" filter="url(#fphactf38m1q1)" height="77.7827" id="Invoker" style="stroke: #1B1B1B; stroke-width: 1.5;" width="141" x="28.5" y="101"/><ellipse cx="61.65" cy="119.0867" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M62.2906,123.2429 Q61.4,123.2429 60.6344,122.9773 Q59.8844,122.7117 59.3375,122.196 Q58.8063,121.6804 58.4938,120.8992 Q58.1969,120.1179 58.1969,119.1023 Q58.1969,118.1492 58.4781,117.3835 Q58.775,116.6023 59.3219,116.0398 Q59.8375,115.5085 60.6031,115.2273 Q61.3844,114.9304 62.2906,114.9304 Q62.7906,114.9304 63.1969,114.9929 Q63.6031,115.0398 63.9469,115.1335 Q64.3063,115.2429 64.6031,115.3679 Q64.9,115.4929 65.1188,115.6023 L65.1188,117.5398 L64.8844,117.5398 Q64.7281,117.4148 64.4938,117.2429 Q64.275,117.0554 63.9781,116.8835 Q63.6813,116.7117 63.3375,116.6023 Q62.9938,116.4773 62.6031,116.4773 Q62.1656,116.4773 61.775,116.6179 Q61.3844,116.7429 61.0563,117.071 Q60.7438,117.3679 60.5406,117.8835 Q60.3531,118.3835 60.3531,119.1023 Q60.3531,119.8523 60.5563,120.3679 Q60.775,120.8679 61.0875,121.1492 Q61.4156,121.446 61.8219,121.571 Q62.2281,121.696 62.6188,121.696 Q62.9938,121.696 63.3531,121.5867 Q63.7281,121.4773 64.0406,121.2742 Q64.3063,121.1335 64.525,120.9617 Q64.7594,120.7742 64.9,120.6492 L65.1188,120.6492 L65.1188,122.5554 Q64.8219,122.696 64.5406,122.821 Q64.275,122.9304 63.9625,123.0085 Q63.5719,123.1179 63.2281,123.1804 Q62.8844,123.2429 62.2906,123.2429 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="72" x="75.35" y="116.2104">«TvRemote»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="45" x="88.85" y="129.8638">Invoker</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="29.5" x2="168.5" y1="137.1733" y2="137.1733"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="36.5" y="145.1733"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="46" x="45.5" y="151.3838">receiver</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="29.5" x2="168.5" y1="157.978" y2="157.978"/><ellipse cx="39.5" cy="168.978" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="118" x="45.5" y="172.1885">command_execute();</text><!--MD5=[bcee973e2623bef0127252815a37a6e8]
+class Receiver--><rect fill="#2E2E2E" filter="url(#fphactf38m1q1)" height="64.978" id="Receiver" style="stroke: #1B1B1B; stroke-width: 1.5;" width="93" x="372.5" y="239"/><ellipse cx="384.5" cy="257.0867" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M385.1406,261.2429 Q384.25,261.2429 383.4844,260.9773 Q382.7344,260.7117 382.1875,260.196 Q381.6563,259.6804 381.3438,258.8992 Q381.0469,258.1179 381.0469,257.1023 Q381.0469,256.1492 381.3281,255.3835 Q381.625,254.6023 382.1719,254.0398 Q382.6875,253.5085 383.4531,253.2273 Q384.2344,252.9304 385.1406,252.9304 Q385.6406,252.9304 386.0469,252.9929 Q386.4531,253.0398 386.7969,253.1335 Q387.1563,253.2429 387.4531,253.3679 Q387.75,253.4929 387.9688,253.6023 L387.9688,255.5398 L387.7344,255.5398 Q387.5781,255.4148 387.3438,255.2429 Q387.125,255.0554 386.8281,254.8835 Q386.5313,254.7117 386.1875,254.6023 Q385.8438,254.4773 385.4531,254.4773 Q385.0156,254.4773 384.625,254.6179 Q384.2344,254.7429 383.9063,255.071 Q383.5938,255.3679 383.3906,255.8835 Q383.2031,256.3835 383.2031,257.1023 Q383.2031,257.8523 383.4063,258.3679 Q383.625,258.8679 383.9375,259.1492 Q384.2656,259.446 384.6719,259.571 Q385.0781,259.696 385.4688,259.696 Q385.8438,259.696 386.2031,259.5867 Q386.5781,259.4773 386.8906,259.2742 Q387.1563,259.1335 387.375,258.9617 Q387.6094,258.7742 387.75,258.6492 L387.9688,258.6492 L387.9688,260.5554 Q387.6719,260.696 387.3906,260.821 Q387.125,260.9304 386.8125,261.0085 Q386.4219,261.1179 386.0781,261.1804 Q385.7344,261.2429 385.1406,261.2429 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="71" x="393.5" y="254.2104">«Television»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="50" x="404" y="267.8638">Receiver</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="373.5" x2="464.5" y1="275.1733" y2="275.1733"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="373.5" x2="464.5" y1="283.1733" y2="283.1733"/><ellipse cx="383.5" cy="294.1733" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="46" x="389.5" y="297.3838">action();</text><!--MD5=[0ba5ee7700168656dc1b457c6fe9fdac]
+entity Client--><rect fill="#556B2F" filter="url(#fphactf38m1q1)" height="33.3687" style="stroke: #1B1B1B; stroke-width: 1.5;" width="53" x="72.5" y="8"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="33" x="82.5" y="29.0591">Client</text><path d="M6,246.5 L6,296.606 A0,0 0 0 0 6,296.606 L158,296.606 A0,0 0 0 0 158,296.606 L158,256.5 L148,246.5 L89.16,246.5 L93.99,179.15 L81.16,246.5 L6,246.5 A0,0 0 0 0 6,246.5 " fill="#BB6600" filter="url(#fphactf38m1q1)" style="stroke: #662200; stroke-width: 1.0;"/><path d="M148,246.5 L148,256.5 L158,256.5 L148,246.5 " fill="#BB6600" style="stroke: #662200; stroke-width: 1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="116" x="12" y="262.5591">DeviceButton will be</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="127" x="12" y="275.9277">interface to TvRemote</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="105" x="12" y="289.2964">command execute</text><path d="M163.5,364 L163.5,387.3687 A0,0 0 0 0 163.5,387.3687 L366.5,387.3687 A0,0 0 0 0 366.5,387.3687 L366.5,374 L356.5,364 L269,364 L265,299.03 L261,364 L163.5,364 A0,0 0 0 0 163.5,364 " fill="#BB6600" filter="url(#fphactf38m1q1)" style="stroke: #662200; stroke-width: 1.0;"/><path d="M356.5,364 L356.5,374 L366.5,374 L356.5,364 " fill="#BB6600" style="stroke: #662200; stroke-width: 1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="182" x="169.5" y="380.0591">These are TurnTvOn, TurnTvOff</text><!--MD5=[94b0aa836a07f6feaaf0564f6fda9ab9]
+link Client to Invoker--><path d="M99,41.28 C99,55.31 99,76.5 99,95.56 " fill="none" id="Client-&gt;Invoker" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="99,100.87,103,91.87,99,95.87,95,91.87,99,100.87" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[1fc7c1e446da3eb9b78b8bbcd1524564]
+link Invoker to Command--><path d="M181.53,140 C181.53,140 194.66,140 200.65,140 " fill="none" id="Invoker-Command" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="213.78,140,204.78,136,208.78,140,204.78,144,213.78,140" style="stroke: #FFFFFF; stroke-width: 1.0;"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="208.78" x2="200.78" y1="140" y2="140"/><polygon fill="#777777" points="169.53,140,175.53,144,181.53,140,175.53,136,169.53,140" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[39c23f063885d200a9a4b9f88d9fd0a3]
+reverse link Command to ConcreateCommand--><path d="M259.25,187.75 C260.55,206.5 262.01,227.45 263.13,243.57 " fill="none" id="Command&lt;-ConcreateCommand" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="252.25,187.96,257.84,167.52,266.21,186.99,252.25,187.96" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[6962bcb82a533a376b59e38c8a8452aa]
+link ConcreateCommand to Receiver--><path d="M337.19,271.5 C347.17,271.5 357.14,271.5 367.12,271.5 " fill="none" id="ConcreateCommand-&gt;Receiver" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="372.34,271.5,363.34,267.5,367.34,271.5,363.34,275.5,372.34,271.5" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[9feaaebb1c0a461abba159980c6d5458]
+@startuml command_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+abstract class Command {
+    + {abstract} execute();
+}
+
+class ConcreateCommand {
+    + execute();
+}
+
+class Invoker <<TvRemote>> {
+    - receiver
+    + command_execute();
+}
+
+class Receiver <<Television>> {
+    + action();
+}
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+Client - -> Invoker 
+
+Invoker o-right-> Command
+Command <|-down- ConcreateCommand
+ConcreateCommand -right-> Receiver
+
+note "DeviceButton will be \ninterface to TvRemote \ncommand execute" as N1
+N1 -up- Invoker
+note "These are TurnTvOn, TurnTvOff" as N2
+N2 -up- ConcreateCommand
+
+@enduml
+
+@startuml command_pattern
+
+
+
+
+
+
+
+
+
+
+skinparam stereotypeCBackgroundColor BB6600
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor BB6600
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor BB6600
+  endColor 662200
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+abstract class Command {
+    + {abstract} execute();
+}
+
+class ConcreateCommand {
+    + execute();
+}
+
+class Invoker <<TvRemote>> {
+    - receiver
+    + command_execute();
+}
+
+class Receiver <<Television>> {
+    + action();
+}
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+Client - -> Invoker 
+
+Invoker o-right-> Command
+Command <|-down- ConcreateCommand
+ConcreateCommand -right-> Receiver
+
+note "DeviceButton will be \ninterface to TvRemote \ncommand execute" as N1
+N1 -up- Invoker
+note "These are TurnTvOn, TurnTvOff" as N2
+N2 -up- ConcreateCommand
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 15:05:57 IST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.8+10-post-Ubuntu-0ubuntu120.04
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: IN
+--></g></svg>

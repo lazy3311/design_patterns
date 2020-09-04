@@ -12,7 +12,7 @@ int main(int argc, char** argv) {
     std::cout << "-------------------------------------------------------------------" << std::endl;
     
 
-    FactoryPet pet_factory;
+    FactoryAnimal *pet_factory = new FactoryPet();
 
     while(true) {
         std::cout << "\n 1. Create Animal\n 2. Exit" << std::endl;

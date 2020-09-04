@@ -1,0 +1,42 @@
+@startuml factory_pattern
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+abstract class Creator <<FactoryAnimal>> {
+    + {abstract} Product create_product();
+}
+class ConcreateCreator <<FactoryPet>> {
+    + Product create_product();
+}
+
+abstract Product <<Animal>> {
+    - string name;
+    + product_name();
+    + do_work();
+}
+
+class ConcreateProduct {
+    + do_work();
+}
+
+note "Cat Dog Animals" as N1
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+Client --> Creator
+Client --> Product
+
+Creator <|-down- ConcreateCreator
+Product <|-down- ConcreateProduct 
+' Creator .right.> Product
+ConcreateCreator .right.> ConcreateProduct
+
+' note left of Creator : Factory abstract class
+' note right of Product : Abstract product class
+note left of ConcreateCreator : will return new product
+N1 .up. ConcreateProduct
+' -- Below is sample to connect notes --
+' note "Product will be created at creator" as N1
+' Creator .. N1
+' N1 .. ConcreateCreator
+@enduml
