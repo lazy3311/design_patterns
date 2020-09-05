@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="468px" preserveAspectRatio="none" style="width:567px;height:468px;background:#777777;" version="1.1" viewBox="0 0 567 468" width="567px" zoomAndPan="magnify"><defs><filter height="300%" id="f88zy49ulo975" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[2c589014e840926a718801db2289e0a7]
+class Creator--><rect fill="#2E2E2E" filter="url(#f88zy49ulo975)" height="64.978" id="Creator" style="stroke: #1B1B1B; stroke-width: 1.5;" width="167" x="197.5" y="114"/><ellipse cx="232" cy="132.0867" fill="#A9DCDF" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M235.9063,135.5867 L233.7813,135.5867 L233.2188,133.9773 L230.2656,133.9773 L229.7031,135.5867 L227.625,135.5867 L230.5781,127.5867 L232.9531,127.5867 L235.9063,135.5867 Z M232.7188,132.5085 L231.75,129.6335 L230.7656,132.5085 L232.7188,132.5085 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="95" x="246" y="129.2104">«FactoryAnimal»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="43" x="272" y="142.8638">Creator</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="198.5" x2="363.5" y1="150.1733" y2="150.1733"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="198.5" x2="363.5" y1="158.1733" y2="158.1733"/><ellipse cx="208.5" cy="169.1733" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="144" x="214.5" y="172.3838">Product create_product();</text><!--MD5=[01b3c2922ab05c746debfc0f3623a12a]
+class ConcreateCreator1--><rect fill="#2E2E2E" filter="url(#f88zy49ulo975)" height="64.978" id="ConcreateCreator1" style="stroke: #1B1B1B; stroke-width: 1.5;" width="167" x="36.5" y="265"/><ellipse cx="62.45" cy="283.0867" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M63.0906,287.2429 Q62.2,287.2429 61.4344,286.9773 Q60.6844,286.7117 60.1375,286.196 Q59.6063,285.6804 59.2938,284.8992 Q58.9969,284.1179 58.9969,283.1023 Q58.9969,282.1492 59.2781,281.3835 Q59.575,280.6023 60.1219,280.0398 Q60.6375,279.5085 61.4031,279.2273 Q62.1844,278.9304 63.0906,278.9304 Q63.5906,278.9304 63.9969,278.9929 Q64.4031,279.0398 64.7469,279.1335 Q65.1063,279.2429 65.4031,279.3679 Q65.7,279.4929 65.9188,279.6023 L65.9188,281.5398 L65.6844,281.5398 Q65.5281,281.4148 65.2938,281.2429 Q65.075,281.0554 64.7781,280.8835 Q64.4813,280.7117 64.1375,280.6023 Q63.7938,280.4773 63.4031,280.4773 Q62.9656,280.4773 62.575,280.6179 Q62.1844,280.7429 61.8563,281.071 Q61.5438,281.3679 61.3406,281.8835 Q61.1531,282.3835 61.1531,283.1023 Q61.1531,283.8523 61.3563,284.3679 Q61.575,284.8679 61.8875,285.1492 Q62.2156,285.446 62.6219,285.571 Q63.0281,285.696 63.4188,285.696 Q63.7938,285.696 64.1531,285.5867 Q64.5281,285.4773 64.8406,285.2742 Q65.1063,285.1335 65.325,284.9617 Q65.5594,284.7742 65.7,284.6492 L65.9188,284.6492 L65.9188,286.5554 Q65.6219,286.696 65.3406,286.821 Q65.075,286.9304 64.7625,287.0085 Q64.3719,287.1179 64.0281,287.1804 Q63.6844,287.2429 63.0906,287.2429 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="94.55" y="280.2104">«FactoryPet»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="110" x="76.55" y="293.8638">ConcreateCreator1</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="37.5" x2="202.5" y1="301.1733" y2="301.1733"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="37.5" x2="202.5" y1="309.1733" y2="309.1733"/><ellipse cx="47.5" cy="320.1733" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="144" x="53.5" y="323.3838">Product create_product();</text><!--MD5=[d7c05cc662a7b2fc53ae01b38b2b59a7]
+class ConcreateCreator2--><rect fill="#2E2E2E" filter="url(#f88zy49ulo975)" height="64.978" id="ConcreateCreator2" style="stroke: #1B1B1B; stroke-width: 1.5;" width="167" x="238.5" y="265"/><ellipse cx="264.45" cy="283.0867" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M265.0906,287.2429 Q264.2,287.2429 263.4344,286.9773 Q262.6844,286.7117 262.1375,286.196 Q261.6063,285.6804 261.2938,284.8992 Q260.9969,284.1179 260.9969,283.1023 Q260.9969,282.1492 261.2781,281.3835 Q261.575,280.6023 262.1219,280.0398 Q262.6375,279.5085 263.4031,279.2273 Q264.1844,278.9304 265.0906,278.9304 Q265.5906,278.9304 265.9969,278.9929 Q266.4031,279.0398 266.7469,279.1335 Q267.1063,279.2429 267.4031,279.3679 Q267.7,279.4929 267.9188,279.6023 L267.9188,281.5398 L267.6844,281.5398 Q267.5281,281.4148 267.2938,281.2429 Q267.075,281.0554 266.7781,280.8835 Q266.4813,280.7117 266.1375,280.6023 Q265.7938,280.4773 265.4031,280.4773 Q264.9656,280.4773 264.575,280.6179 Q264.1844,280.7429 263.8563,281.071 Q263.5438,281.3679 263.3406,281.8835 Q263.1531,282.3835 263.1531,283.1023 Q263.1531,283.8523 263.3563,284.3679 Q263.575,284.8679 263.8875,285.1492 Q264.2156,285.446 264.6219,285.571 Q265.0281,285.696 265.4188,285.696 Q265.7938,285.696 266.1531,285.5867 Q266.5281,285.4773 266.8406,285.2742 Q267.1063,285.1335 267.325,284.9617 Q267.5594,284.7742 267.7,284.6492 L267.9188,284.6492 L267.9188,286.5554 Q267.6219,286.696 267.3406,286.821 Q267.075,286.9304 266.7625,287.0085 Q266.3719,287.1179 266.0281,287.1804 Q265.6844,287.2429 265.0906,287.2429 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="293.55" y="280.2104">«FactoryWild»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="110" x="278.55" y="293.8638">ConcreateCreator2</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="239.5" x2="404.5" y1="301.1733" y2="301.1733"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="239.5" x2="404.5" y1="309.1733" y2="309.1733"/><ellipse cx="249.5" cy="320.1733" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="144" x="255.5" y="323.3838">Product create_product();</text><!--MD5=[07f1e3f6c003f8e81632b8da067303b4]
+class ProductTypeA--><rect fill="#2E2E2E" filter="url(#f88zy49ulo975)" height="90.5874" id="ProductTypeA" style="stroke: #1B1B1B; stroke-width: 1.5;" width="116" x="6" y="101"/><ellipse cx="22.95" cy="119.0867" fill="#A9DCDF" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M26.8563,122.5867 L24.7313,122.5867 L24.1688,120.9773 L21.2156,120.9773 L20.6531,122.5867 L18.575,122.5867 L21.5281,114.5867 L23.9031,114.5867 L26.8563,122.5867 Z M23.6688,119.5085 L22.7,116.6335 L21.7156,119.5085 L23.6688,119.5085 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="53" x="48.05" y="116.2104">«Animal»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="35.05" y="129.8638">ProductTypeA</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="7" x2="121" y1="137.1733" y2="137.1733"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="145.1733"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="73" x="23" y="151.3838">string name;</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="7" x2="121" y1="157.978" y2="157.978"/><ellipse cx="17" cy="168.978" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="23" y="172.1885">product_name();</text><ellipse cx="17" cy="181.7827" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="23" y="184.9932">do_work();</text><!--MD5=[b33ce89ae4298c1c2db99b628501c17b]
+class ConcreateProductTypeA--><rect fill="#2E2E2E" filter="url(#f88zy49ulo975)" height="54.8047" id="ConcreateProductTypeA" style="stroke: #1B1B1B; stroke-width: 1.5;" width="164" x="38" y="403"/><ellipse cx="50" cy="416" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M50.6406,420.1563 Q49.75,420.1563 48.9844,419.8906 Q48.2344,419.625 47.6875,419.1094 Q47.1563,418.5938 46.8438,417.8125 Q46.5469,417.0313 46.5469,416.0156 Q46.5469,415.0625 46.8281,414.2969 Q47.125,413.5156 47.6719,412.9531 Q48.1875,412.4219 48.9531,412.1406 Q49.7344,411.8438 50.6406,411.8438 Q51.1406,411.8438 51.5469,411.9063 Q51.9531,411.9531 52.2969,412.0469 Q52.6563,412.1563 52.9531,412.2813 Q53.25,412.4063 53.4688,412.5156 L53.4688,414.4531 L53.2344,414.4531 Q53.0781,414.3281 52.8438,414.1563 Q52.625,413.9688 52.3281,413.7969 Q52.0313,413.625 51.6875,413.5156 Q51.3438,413.3906 50.9531,413.3906 Q50.5156,413.3906 50.125,413.5313 Q49.7344,413.6563 49.4063,413.9844 Q49.0938,414.2813 48.8906,414.7969 Q48.7031,415.2969 48.7031,416.0156 Q48.7031,416.7656 48.9063,417.2813 Q49.125,417.7813 49.4375,418.0625 Q49.7656,418.3594 50.1719,418.4844 Q50.5781,418.6094 50.9688,418.6094 Q51.3438,418.6094 51.7031,418.5 Q52.0781,418.3906 52.3906,418.1875 Q52.6563,418.0469 52.875,417.875 Q53.1094,417.6875 53.25,417.5625 L53.4688,417.5625 L53.4688,419.4688 Q53.1719,419.6094 52.8906,419.7344 Q52.625,419.8438 52.3125,419.9219 Q51.9219,420.0313 51.5781,420.0938 Q51.2344,420.1563 50.6406,420.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="138" x="61" y="420.3748">ConcreateProductTypeA</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="39" x2="201" y1="429" y2="429"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="39" x2="201" y1="437" y2="437"/><ellipse cx="49" cy="448" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="55" y="451.2104">do_work();</text><!--MD5=[2b2323b71420bbcaa0f6acbee83377bc]
+class ProductTypeB--><rect fill="#2E2E2E" filter="url(#f88zy49ulo975)" height="90.5874" id="ProductTypeB" style="stroke: #1B1B1B; stroke-width: 1.5;" width="116" x="440" y="252"/><ellipse cx="456.95" cy="270.0867" fill="#A9DCDF" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M460.8563,273.5867 L458.7313,273.5867 L458.1688,271.9773 L455.2156,271.9773 L454.6531,273.5867 L452.575,273.5867 L455.5281,265.5867 L457.9031,265.5867 L460.8563,273.5867 Z M457.6688,270.5085 L456.7,267.6335 L455.7156,270.5085 L457.6688,270.5085 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41" x="488.05" y="267.2104">«Food»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="469.05" y="280.8638">ProductTypeB</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="441" x2="555" y1="288.1733" y2="288.1733"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="448" y="296.1733"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="73" x="457" y="302.3838">string name;</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="441" x2="555" y1="308.978" y2="308.978"/><ellipse cx="451" cy="319.978" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="457" y="323.1885">product_name();</text><ellipse cx="451" cy="332.7827" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="457" y="335.9932">do_work();</text><!--MD5=[4923b24a58f29a37bab3d50755c3cbe7]
+class ConcreateProductTypeB--><rect fill="#2E2E2E" filter="url(#f88zy49ulo975)" height="54.8047" id="ConcreateProductTypeB" style="stroke: #1B1B1B; stroke-width: 1.5;" width="164" x="240" y="403"/><ellipse cx="252" cy="416" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M252.6406,420.1563 Q251.75,420.1563 250.9844,419.8906 Q250.2344,419.625 249.6875,419.1094 Q249.1563,418.5938 248.8438,417.8125 Q248.5469,417.0313 248.5469,416.0156 Q248.5469,415.0625 248.8281,414.2969 Q249.125,413.5156 249.6719,412.9531 Q250.1875,412.4219 250.9531,412.1406 Q251.7344,411.8438 252.6406,411.8438 Q253.1406,411.8438 253.5469,411.9063 Q253.9531,411.9531 254.2969,412.0469 Q254.6563,412.1563 254.9531,412.2813 Q255.25,412.4063 255.4688,412.5156 L255.4688,414.4531 L255.2344,414.4531 Q255.0781,414.3281 254.8438,414.1563 Q254.625,413.9688 254.3281,413.7969 Q254.0313,413.625 253.6875,413.5156 Q253.3438,413.3906 252.9531,413.3906 Q252.5156,413.3906 252.125,413.5313 Q251.7344,413.6563 251.4063,413.9844 Q251.0938,414.2813 250.8906,414.7969 Q250.7031,415.2969 250.7031,416.0156 Q250.7031,416.7656 250.9063,417.2813 Q251.125,417.7813 251.4375,418.0625 Q251.7656,418.3594 252.1719,418.4844 Q252.5781,418.6094 252.9688,418.6094 Q253.3438,418.6094 253.7031,418.5 Q254.0781,418.3906 254.3906,418.1875 Q254.6563,418.0469 254.875,417.875 Q255.1094,417.6875 255.25,417.5625 L255.4688,417.5625 L255.4688,419.4688 Q255.1719,419.6094 254.8906,419.7344 Q254.625,419.8438 254.3125,419.9219 Q253.9219,420.0313 253.5781,420.0938 Q253.2344,420.1563 252.6406,420.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="138" x="263" y="420.3748">ConcreateProductTypeB</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="241" x2="403" y1="429" y2="429"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="241" x2="403" y1="437" y2="437"/><ellipse cx="251" cy="448" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="257" y="451.2104">do_work();</text><!--MD5=[0ba5ee7700168656dc1b457c6fe9fdac]
+entity Client--><rect fill="#556B2F" filter="url(#f88zy49ulo975)" height="33.3687" style="stroke: #1B1B1B; stroke-width: 1.5;" width="53" x="254.5" y="8"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="33" x="264.5" y="29.0591">Client</text><!--MD5=[3f6fd1a1132fcd48c058ca28acf5b47a]
+link Client to Creator--><path d="M281,41.19 C281,58.2 281,85.94 281,108.55 " fill="none" id="Client-&gt;Creator" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="281,113.58,285,104.58,281,108.58,277,104.58,281,113.58" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[817e1427680bfdf35bfc79ed2f99ae8d]
+link Client to ProductTypeA--><path d="M254.39,40.21 C222.83,57.67 169.18,87.34 126.86,110.74 " fill="none" id="Client-&gt;ProductTypeA" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="122.28,113.27,132.0921,112.4204,126.6568,110.8527,128.2245,105.4174,122.28,113.27" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[fbe78a94c8424d5af225e5f1cece5275]
+link Client to ProductTypeB--><path d="M307.32,41.05 C329.14,54.85 360.05,76.58 382,101 C421.84,145.32 455.04,205.37 475.57,247.18 " fill="none" id="Client-&gt;ProductTypeB" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="477.76,251.67,477.3883,241.8282,475.5583,247.1808,470.2056,245.3509,477.76,251.67" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[4f4946fcac6c38ad7f0e71f697ea9019]
+reverse link Creator to ConcreateCreator1--><path d="M231.92,192.92 C206.75,216.22 176.71,244.02 154.09,264.95 " fill="none" id="Creator&lt;-ConcreateCreator1" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="227.42,187.55,246.86,179.1,236.93,197.82,227.42,187.55" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[43bc5a2a9a2300df2e5de9d26437bcaf]
+reverse link Creator to ConcreateCreator2--><path d="M295.06,198.61 C301.12,220.63 308.02,245.69 313.32,264.95 " fill="none" id="Creator&lt;-ConcreateCreator2" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="288.25,200.24,289.7,179.1,301.75,196.53,288.25,200.24" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[4acf2e35df3dd792a3d719feeb5ad6e5]
+reverse link ProductTypeA to ConcreateProductTypeA--><path d="M29.32,210.58 C12.49,249.97 -0.33,300.99 19,343 C30.44,367.85 52.93,388.23 73.79,402.95 " fill="none" id="ProductTypeA&lt;-ConcreateProductTypeA" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="23.04,207.5,37.78,192.27,35.75,213.37,23.04,207.5" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[d1361e4f1f762f79d1407a53b541d651]
+reverse link ProductTypeB to ConcreateProductTypeB--><path d="M423.58,353.89 C400.77,370.87 376.71,388.78 357.73,402.9 " fill="none" id="ProductTypeB&lt;-ConcreateProductTypeB" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="419.66,348.08,439.88,341.76,428.02,359.31,419.66,348.08" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[998868991d00d3f4942d166351c37cb0]
+link ConcreateCreator1 to ConcreateProductTypeA--><path d="M120,330.21 C120,350.73 120,377.35 120,397.86 " fill="none" id="ConcreateCreator1-&gt;ConcreateProductTypeA" style="stroke: #FFFFFF; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#FFFFFF" points="120,402.94,124,393.94,120,397.94,116,393.94,120,402.94" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[ccb6e91167907b7e5e1854dea451cb8f]
+link ConcreateCreator1 to ConcreateProductTypeB--><path d="M168.64,330.04 C201.49,351.35 244.55,379.27 276.68,400.11 " fill="none" id="ConcreateCreator1-&gt;ConcreateProductTypeB" style="stroke: #FFFFFF; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#FFFFFF" points="280.93,402.87,275.5422,394.6255,276.7306,400.1561,271.2,401.3445,280.93,402.87" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[9c5d5d88a2a1a7ce2b78ff90d17a2b6c]
+link ConcreateCreator2 to ConcreateProductTypeA--><path d="M273.36,330.04 C240.51,351.35 197.45,379.27 165.32,400.11 " fill="none" id="ConcreateCreator2-&gt;ConcreateProductTypeA" style="stroke: #FFFFFF; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#FFFFFF" points="161.07,402.87,170.8,401.3445,165.2694,400.1561,166.4578,394.6255,161.07,402.87" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[4910c9540897eab3f31dc81067a431b9]
+link ConcreateCreator2 to ConcreateProductTypeB--><path d="M322,330.21 C322,350.73 322,377.35 322,397.86 " fill="none" id="ConcreateCreator2-&gt;ConcreateProductTypeB" style="stroke: #FFFFFF; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#FFFFFF" points="322,402.94,326,393.94,322,397.94,318,393.94,322,402.94" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[789858c690275986a528614e12ed0232]
+@startuml abstract_factory_pattern
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+abstract class Creator <<FactoryAnimal>> {
+    + {abstract} Product create_product();
+}
+class ConcreateCreator1 <<FactoryPet>> {
+    + Product create_product();
+}
+
+class ConcreateCreator2 <<FactoryWild>> {
+    + Product create_product();
+}
+
+abstract ProductTypeA <<Animal>> {
+    - string name;
+    + product_name();
+    + do_work();
+}
+
+class ConcreateProductTypeA {
+    + do_work();
+}
+
+abstract ProductTypeB <<Food>> {
+    - string name;
+    + product_name();
+    + do_work();
+}
+
+class ConcreateProductTypeB {
+    + do_work();
+}
+
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+Client - -> Creator
+Client - -> ProductTypeA
+Client - -> ProductTypeB
+
+Creator <|-down- ConcreateCreator1
+Creator <|-down- ConcreateCreator2
+ProductTypeA <|-down- ConcreateProductTypeA 
+ProductTypeB <|-down- ConcreateProductTypeB
+ConcreateCreator1 ..> ConcreateProductTypeA
+ConcreateCreator1 ..> ConcreateProductTypeB
+ConcreateCreator2 ..> ConcreateProductTypeA
+ConcreateCreator2 ..> ConcreateProductTypeB
+
+
+@enduml
+
+@startuml abstract_factory_pattern
+
+
+
+
+
+
+
+
+
+skinparam stereotypeCBackgroundColor BB6600
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor BB6600
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor BB6600
+  endColor 662200
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+abstract class Creator <<FactoryAnimal>> {
+    + {abstract} Product create_product();
+}
+class ConcreateCreator1 <<FactoryPet>> {
+    + Product create_product();
+}
+
+class ConcreateCreator2 <<FactoryWild>> {
+    + Product create_product();
+}
+
+abstract ProductTypeA <<Animal>> {
+    - string name;
+    + product_name();
+    + do_work();
+}
+
+class ConcreateProductTypeA {
+    + do_work();
+}
+
+abstract ProductTypeB <<Food>> {
+    - string name;
+    + product_name();
+    + do_work();
+}
+
+class ConcreateProductTypeB {
+    + do_work();
+}
+
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+Client - -> Creator
+Client - -> ProductTypeA
+Client - -> ProductTypeB
+
+Creator <|-down- ConcreateCreator1
+Creator <|-down- ConcreateCreator2
+ProductTypeA <|-down- ConcreateProductTypeA 
+ProductTypeB <|-down- ConcreateProductTypeB
+ConcreateCreator1 ..> ConcreateProductTypeA
+ConcreateCreator1 ..> ConcreateProductTypeB
+ConcreateCreator2 ..> ConcreateProductTypeA
+ConcreateCreator2 ..> ConcreateProductTypeB
+
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 15:05:57 IST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.8+10-post-Ubuntu-0ubuntu120.04
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: IN
+--></g></svg>

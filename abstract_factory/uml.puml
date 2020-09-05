@@ -1,0 +1,53 @@
+@startuml abstract_factory_pattern
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+abstract class Creator <<FactoryAnimal>> {
+    + {abstract} Product create_product();
+}
+class ConcreateCreator1 <<FactoryPet>> {
+    + Product create_product();
+}
+
+class ConcreateCreator2 <<FactoryWild>> {
+    + Product create_product();
+}
+
+abstract ProductTypeA <<Animal>> {
+    - string name;
+    + product_name();
+    + do_work();
+}
+
+class ConcreateProductTypeA {
+    + do_work();
+}
+
+abstract ProductTypeB <<Food>> {
+    - string name;
+    + product_name();
+    + do_work();
+}
+
+class ConcreateProductTypeB {
+    + do_work();
+}
+
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+Client --> Creator
+Client --> ProductTypeA
+Client --> ProductTypeB
+
+Creator <|-down- ConcreateCreator1
+Creator <|-down- ConcreateCreator2
+ProductTypeA <|-down- ConcreateProductTypeA 
+ProductTypeB <|-down- ConcreateProductTypeB
+ConcreateCreator1 ..> ConcreateProductTypeA
+ConcreateCreator1 ..> ConcreateProductTypeB
+ConcreateCreator2 ..> ConcreateProductTypeA
+ConcreateCreator2 ..> ConcreateProductTypeB
+
+
+@enduml

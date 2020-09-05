@@ -1,0 +1,32 @@
+@startuml decorator_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+abstract class Component <<IPizza>> {
+    + {abstract} get_cost();
+}
+
+class ConcreteComponent <<ThinCrustPizza>>{
+    + get_cost();
+}
+
+abstract class Decorator <<IToppingDecorator>>{
+    - Component concreate_component;
+    + Decorator(Component)
+    + {abstract} get_cost();
+}
+
+class ConcreteDecorator {
+    + get_cost();
+}
+note "These are ToppingMozarella, ToppingSauce" as N1
+N1 .right. ConcreteDecorator
+
+Component <|-- ConcreteComponent
+Component <|-- Decorator
+Decorator <|-- ConcreteDecorator
+Component <-- ConcreteDecorator
+
+
+@enduml

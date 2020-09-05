@@ -1,0 +1,32 @@
+@startuml memento_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+class Caretaker {
+    + add_memento();
+    + get_memento();
+}
+
+class Originator {
+    + store_memento();
+    + restore_memento();
+}
+
+class Memento {
+    + Memento(data);
+    + get_data();
+}
+
+Originator -right-> Memento
+Originator ..> Memento : <<create>>
+Caretaker -right-> Originator
+
+allow_mixing
+collections History #DarkOliveGreen
+Caretaker --> History
+
+note "Originator creates memento\nCaretaker stores in History \n vice-versa for restore" as N1
+N1 .. Caretaker 
+Originator .. N1
+@enduml

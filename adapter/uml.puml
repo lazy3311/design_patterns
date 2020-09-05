@@ -1,0 +1,28 @@
+@startuml adapter_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+class Target <<USASocket>> {
+    + request();
+}
+
+class Adapter <<USAAdapterEuropean>>{
+    Adaptee adaptee;
+    + request();
+}
+
+class Adaptee <<EuropeanSocket>>{
+    + specific_request();
+}
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+Client --> Target 
+
+Target <|-down- Adapter
+Adapter -right-> Adaptee
+
+
+
+@enduml

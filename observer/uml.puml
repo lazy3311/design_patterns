@@ -1,0 +1,39 @@
+@startuml observer_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+abstract class Subject {
+    + {abstract} register();
+    + {abstract} unregister();
+    + {abstract} notify();
+}
+
+class ConcreateSubject {
+    + registered_observer;
+    + register();
+    + unregister();
+    + notify();
+}
+
+abstract class Observer {
+    + {abstract} update();
+}
+
+class ConcreateObserverA {
+    + update();
+}
+
+class ConcreateObserverB {
+    + update();
+}
+
+Subject <|-- ConcreateSubject
+Subject o-- Observer
+Observer <|-- ConcreateObserverA
+Observer <|-- ConcreateObserverB
+ConcreateSubject ..> ConcreateObserverA
+ConcreateSubject ..> ConcreateObserverB
+note left of Subject : notify registered_observer\n with update() method
+
+@enduml
