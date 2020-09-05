@@ -1,0 +1,12 @@
+@startuml singleton_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+class Singleton {
+    - Singleton instance;
+    - Singleton();
+    + Singleton get_instance();
+}
+
+@enduml

@@ -1,0 +1,31 @@
+@startuml proxy_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+class Facade {
+    + do_something();
+}
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+
+Client -left-> Facade : do_something()
+note left of Facade : do_something() {\n classA.do_a()\n classB.do_b()\n}
+
+package "Package A" {
+  class ClassA {
+    + do_a();
+  }
+  ClassA <.down. Facade
+}
+
+package "Package B" {
+
+  class ClassB {
+    + do_b();
+  }
+  ClassB <.down. Facade
+}
+
+@enduml

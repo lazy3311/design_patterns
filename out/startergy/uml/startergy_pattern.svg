@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="209px" preserveAspectRatio="none" style="width:419px;height:209px;background:#777777;" version="1.1" viewBox="0 0 419 209" width="419px" zoomAndPan="magnify"><defs><filter height="300%" id="f93f7ozwgxsz9" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[6754354365917abf8f1a56af1b7e344c]
+class Context--><rect fill="#2E2E2E" filter="url(#f93f7ozwgxsz9)" height="64.978" id="Context" style="stroke: #1B1B1B; stroke-width: 1.5;" width="89" x="6" y="8"/><ellipse cx="24.3" cy="26.0867" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M24.9406,30.2429 Q24.05,30.2429 23.2844,29.9773 Q22.5344,29.7117 21.9875,29.196 Q21.4563,28.6804 21.1438,27.8992 Q20.8469,27.1179 20.8469,26.1023 Q20.8469,25.1492 21.1281,24.3835 Q21.425,23.6023 21.9719,23.0398 Q22.4875,22.5085 23.2531,22.2273 Q24.0344,21.9304 24.9406,21.9304 Q25.4406,21.9304 25.8469,21.9929 Q26.2531,22.0398 26.5969,22.1335 Q26.9563,22.2429 27.2531,22.3679 Q27.55,22.4929 27.7688,22.6023 L27.7688,24.5398 L27.5344,24.5398 Q27.3781,24.4148 27.1438,24.2429 Q26.925,24.0554 26.6281,23.8835 Q26.3313,23.7117 25.9875,23.6023 Q25.6438,23.4773 25.2531,23.4773 Q24.8156,23.4773 24.425,23.6179 Q24.0344,23.7429 23.7063,24.071 Q23.3938,24.3679 23.1906,24.8835 Q23.0031,25.3835 23.0031,26.1023 Q23.0031,26.8523 23.2063,27.3679 Q23.425,27.8679 23.7375,28.1492 Q24.0656,28.446 24.4719,28.571 Q24.8781,28.696 25.2688,28.696 Q25.6438,28.696 26.0031,28.5867 Q26.3781,28.4773 26.6906,28.2742 Q26.9563,28.1335 27.175,27.9617 Q27.4094,27.7742 27.55,27.6492 L27.7688,27.6492 L27.7688,29.5554 Q27.4719,29.696 27.1906,29.821 Q26.925,29.9304 26.6125,30.0085 Q26.2219,30.1179 25.8781,30.1804 Q25.5344,30.2429 24.9406,30.2429 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="53" x="34.7" y="23.2104">«Animal»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="45" x="38.7" y="36.8638">Context</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="7" x2="94" y1="44.1733" y2="44.1733"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="7" x2="94" y1="52.1733" y2="52.1733"/><ellipse cx="17" cy="63.1733" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="66" x="23" y="66.3838">operation();</text><!--MD5=[308f12197b32dd77d53b1efbfe3da2a7]
+class Startergy--><rect fill="#2E2E2E" filter="url(#f93f7ozwgxsz9)" height="64.978" id="Startergy" style="stroke: #1B1B1B; stroke-width: 1.5;" width="120" x="183.5" y="8"/><ellipse cx="195.5" cy="26.0867" fill="#A9DCDF" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M199.4063,29.5867 L197.2813,29.5867 L196.7188,27.9773 L193.7656,27.9773 L193.2031,29.5867 L191.125,29.5867 L194.0781,21.5867 L196.4531,21.5867 L199.4063,29.5867 Z M196.2188,26.5085 L195.25,23.6335 L194.2656,26.5085 L196.2188,26.5085 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="98" x="204.5" y="23.2104">«IMoveBehavior»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="53" x="227" y="36.8638">Startergy</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="184.5" x2="302.5" y1="44.1733" y2="44.1733"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="184.5" x2="302.5" y1="52.1733" y2="52.1733"/><ellipse cx="194.5" cy="63.1733" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="200.5" y="66.3838">execute();</text><!--MD5=[76fb7f6b7679c7a41788e7c1a1564c85]
+class ConcreateStartergyA--><rect fill="#2E2E2E" filter="url(#f93f7ozwgxsz9)" height="64.978" id="ConcreateStartergyA" style="stroke: #1B1B1B; stroke-width: 1.5;" width="147" x="79" y="134"/><ellipse cx="91" cy="152.0867" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M91.6406,156.2429 Q90.75,156.2429 89.9844,155.9773 Q89.2344,155.7117 88.6875,155.196 Q88.1563,154.6804 87.8438,153.8992 Q87.5469,153.1179 87.5469,152.1023 Q87.5469,151.1492 87.8281,150.3835 Q88.125,149.6023 88.6719,149.0398 Q89.1875,148.5085 89.9531,148.2273 Q90.7344,147.9304 91.6406,147.9304 Q92.1406,147.9304 92.5469,147.9929 Q92.9531,148.0398 93.2969,148.1335 Q93.6563,148.2429 93.9531,148.3679 Q94.25,148.4929 94.4688,148.6023 L94.4688,150.5398 L94.2344,150.5398 Q94.0781,150.4148 93.8438,150.2429 Q93.625,150.0554 93.3281,149.8835 Q93.0313,149.7117 92.6875,149.6023 Q92.3438,149.4773 91.9531,149.4773 Q91.5156,149.4773 91.125,149.6179 Q90.7344,149.7429 90.4063,150.071 Q90.0938,150.3679 89.8906,150.8835 Q89.7031,151.3835 89.7031,152.1023 Q89.7031,152.8523 89.9063,153.3679 Q90.125,153.8679 90.4375,154.1492 Q90.7656,154.446 91.1719,154.571 Q91.5781,154.696 91.9688,154.696 Q92.3438,154.696 92.7031,154.5867 Q93.0781,154.4773 93.3906,154.2742 Q93.6563,154.1335 93.875,153.9617 Q94.1094,153.7742 94.25,153.6492 L94.4688,153.6492 L94.4688,155.5554 Q94.1719,155.696 93.8906,155.821 Q93.625,155.9304 93.3125,156.0085 Q92.9219,156.1179 92.5781,156.1804 Q92.2344,156.2429 91.6406,156.2429 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="60" x="132.5" y="149.2104">«Running»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="121" x="102" y="162.8638">ConcreateStartergyA</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="80" x2="225" y1="170.1733" y2="170.1733"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="80" x2="225" y1="178.1733" y2="178.1733"/><ellipse cx="90" cy="189.1733" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="96" y="192.3838">execute();</text><!--MD5=[7198bd3f35abc265ae06b36dba989cd5]
+class ConcreateStartergyB--><rect fill="#2E2E2E" filter="url(#f93f7ozwgxsz9)" height="64.978" id="ConcreateStartergyB" style="stroke: #1B1B1B; stroke-width: 1.5;" width="147" x="261" y="134"/><ellipse cx="273" cy="152.0867" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M273.6406,156.2429 Q272.75,156.2429 271.9844,155.9773 Q271.2344,155.7117 270.6875,155.196 Q270.1563,154.6804 269.8438,153.8992 Q269.5469,153.1179 269.5469,152.1023 Q269.5469,151.1492 269.8281,150.3835 Q270.125,149.6023 270.6719,149.0398 Q271.1875,148.5085 271.9531,148.2273 Q272.7344,147.9304 273.6406,147.9304 Q274.1406,147.9304 274.5469,147.9929 Q274.9531,148.0398 275.2969,148.1335 Q275.6563,148.2429 275.9531,148.3679 Q276.25,148.4929 276.4688,148.6023 L276.4688,150.5398 L276.2344,150.5398 Q276.0781,150.4148 275.8438,150.2429 Q275.625,150.0554 275.3281,149.8835 Q275.0313,149.7117 274.6875,149.6023 Q274.3438,149.4773 273.9531,149.4773 Q273.5156,149.4773 273.125,149.6179 Q272.7344,149.7429 272.4063,150.071 Q272.0938,150.3679 271.8906,150.8835 Q271.7031,151.3835 271.7031,152.1023 Q271.7031,152.8523 271.9063,153.3679 Q272.125,153.8679 272.4375,154.1492 Q272.7656,154.446 273.1719,154.571 Q273.5781,154.696 273.9688,154.696 Q274.3438,154.696 274.7031,154.5867 Q275.0781,154.4773 275.3906,154.2742 Q275.6563,154.1335 275.875,153.9617 Q276.1094,153.7742 276.25,153.6492 L276.4688,153.6492 L276.4688,155.5554 Q276.1719,155.696 275.8906,155.821 Q275.625,155.9304 275.3125,156.0085 Q274.9219,156.1179 274.5781,156.1804 Q274.2344,156.2429 273.6406,156.2429 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="58" x="315.5" y="149.2104">«Walking»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="121" x="284" y="162.8638">ConcreateStartergyB</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="262" x2="407" y1="170.1733" y2="170.1733"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="262" x2="407" y1="178.1733" y2="178.1733"/><ellipse cx="272" cy="189.1733" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="278" y="192.3838">execute();</text><!--MD5=[a82d78b28041dd3e32fbba0abd0b03ad]
+link Context to Startergy--><path d="M95.26,40.5 C119.9,40.5 150.92,40.5 178.21,40.5 " fill="none" id="Context-&gt;Startergy" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="183.26,40.5,174.26,36.5,178.26,40.5,174.26,44.5,183.26,40.5" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="52" x="113.25" y="34.5591">startergy</text><!--MD5=[a7fd050840d94304b37f87e72c2acc15]
+reverse link Startergy to ConcreateStartergyA--><path d="M208.41,89.31 C197.43,104.27 185.6,120.4 175.66,133.95 " fill="none" id="Startergy&lt;-ConcreateStartergyA" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="202.83,85.09,220.3,73.11,214.11,93.38,202.83,85.09" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[f3fffeffbf2717060ccdc2e7a6337aa6]
+reverse link Startergy to ConcreateStartergyB--><path d="M278.59,89.31 C289.57,104.27 301.4,120.4 311.34,133.95 " fill="none" id="Startergy&lt;-ConcreateStartergyB" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="272.89,93.38,266.7,73.11,284.17,85.09,272.89,93.38" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[864baa38c5a7f2ab3cd8a16d6379177b]
+@startuml startergy_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+class Context <<Animal>>{
+    + operation();
+}
+
+abstract class Startergy <<IMoveBehavior>> {
+    + {abstract} execute();
+}
+
+class ConcreateStartergyA <<Running>> {
+    + execute();
+}
+
+class ConcreateStartergyB <<Walking>> {
+    + execute();
+}
+
+Context -right-> Startergy : startergy
+Startergy <|- - ConcreateStartergyA
+Startergy <|- - ConcreateStartergyB
+
+@enduml
+
+@startuml startergy_pattern
+
+
+
+
+
+
+
+
+
+
+skinparam stereotypeCBackgroundColor BB6600
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor BB6600
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor BB6600
+  endColor 662200
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+class Context <<Animal>>{
+    + operation();
+}
+
+abstract class Startergy <<IMoveBehavior>> {
+    + {abstract} execute();
+}
+
+class ConcreateStartergyA <<Running>> {
+    + execute();
+}
+
+class ConcreateStartergyB <<Walking>> {
+    + execute();
+}
+
+Context -right-> Startergy : startergy
+Startergy <|- - ConcreateStartergyA
+Startergy <|- - ConcreateStartergyB
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 15:05:57 IST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.8+10-post-Ubuntu-0ubuntu120.04
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: IN
+--></g></svg>

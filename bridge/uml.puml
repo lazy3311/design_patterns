@@ -1,0 +1,27 @@
+@startuml bridge_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+abstract class Abstraction {
+    - Implementor impl;
+    + {abstract} function();
+}
+
+class RefinedAbstraction {
+    + function();
+}
+
+abstract class Implementor {
+    + {abstract} implementation();
+}
+
+class ConcreateImplementor {
+    + implementation();
+}
+
+Abstraction <|-- RefinedAbstraction
+Implementor <|-- ConcreateImplementor
+Abstraction o-right- Implementor
+
+@enduml

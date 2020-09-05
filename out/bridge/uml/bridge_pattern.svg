@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="201px" preserveAspectRatio="none" style="width:344px;height:201px;background:#777777;" version="1.1" viewBox="0 0 344 201" width="344px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ihjm2oxu9nac" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[f7e5aaedf1b25aad9b447cdf8dba2a20]
+class Abstraction--><rect fill="#2E2E2E" filter="url(#f1ihjm2oxu9nac)" height="67.6094" id="Abstraction" style="stroke: #1B1B1B; stroke-width: 1.5;" width="127" x="14" y="8"/><ellipse cx="42.65" cy="21" fill="#A9DCDF" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M46.5563,24.5 L44.4313,24.5 L43.8688,22.8906 L40.9156,22.8906 L40.3531,24.5 L38.275,24.5 L41.2281,16.5 L43.6031,16.5 L46.5563,24.5 Z M43.3688,21.4219 L42.4,18.5469 L41.4156,21.4219 L43.3688,21.4219 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="64" x="57.35" y="25.3748">Abstraction</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="15" x2="140" y1="34" y2="34"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="22" y="42"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="104" x="31" y="48.2104">Implementor impl;</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="15" x2="140" y1="54.8047" y2="54.8047"/><ellipse cx="25" cy="65.8047" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="31" y="69.0151">function();</text><!--MD5=[088b70f627ca28c8359a997d6c19ab61]
+class RefinedAbstraction--><rect fill="#2E2E2E" filter="url(#f1ihjm2oxu9nac)" height="54.8047" id="RefinedAbstraction" style="stroke: #1B1B1B; stroke-width: 1.5;" width="133" x="6" y="136"/><ellipse cx="18" cy="149" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M18.6406,153.1563 Q17.75,153.1563 16.9844,152.8906 Q16.2344,152.625 15.6875,152.1094 Q15.1563,151.5938 14.8438,150.8125 Q14.5469,150.0313 14.5469,149.0156 Q14.5469,148.0625 14.8281,147.2969 Q15.125,146.5156 15.6719,145.9531 Q16.1875,145.4219 16.9531,145.1406 Q17.7344,144.8438 18.6406,144.8438 Q19.1406,144.8438 19.5469,144.9063 Q19.9531,144.9531 20.2969,145.0469 Q20.6563,145.1563 20.9531,145.2813 Q21.25,145.4063 21.4688,145.5156 L21.4688,147.4531 L21.2344,147.4531 Q21.0781,147.3281 20.8438,147.1563 Q20.625,146.9688 20.3281,146.7969 Q20.0313,146.625 19.6875,146.5156 Q19.3438,146.3906 18.9531,146.3906 Q18.5156,146.3906 18.125,146.5313 Q17.7344,146.6563 17.4063,146.9844 Q17.0938,147.2813 16.8906,147.7969 Q16.7031,148.2969 16.7031,149.0156 Q16.7031,149.7656 16.9063,150.2813 Q17.125,150.7813 17.4375,151.0625 Q17.7656,151.3594 18.1719,151.4844 Q18.5781,151.6094 18.9688,151.6094 Q19.3438,151.6094 19.7031,151.5 Q20.0781,151.3906 20.3906,151.1875 Q20.6563,151.0469 20.875,150.875 Q21.1094,150.6875 21.25,150.5625 L21.4688,150.5625 L21.4688,152.4688 Q21.1719,152.6094 20.8906,152.7344 Q20.625,152.8438 20.3125,152.9219 Q19.9219,153.0313 19.5781,153.0938 Q19.2344,153.1563 18.6406,153.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="107" x="29" y="153.3748">RefinedAbstraction</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="7" x2="138" y1="162" y2="162"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="7" x2="138" y1="170" y2="170"/><ellipse cx="17" cy="181" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="57" x="23" y="184.2104">function();</text><!--MD5=[e122f73aad4e23bd379e5a2a2f5217b5]
+class Implementor--><rect fill="#2E2E2E" filter="url(#f1ihjm2oxu9nac)" height="54.8047" id="Implementor" style="stroke: #1B1B1B; stroke-width: 1.5;" width="123" x="186" y="14.5"/><ellipse cx="208.35" cy="27.5" fill="#A9DCDF" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M212.2563,31 L210.1313,31 L209.5688,29.3906 L206.6156,29.3906 L206.0531,31 L203.975,31 L206.9281,23 L209.3031,23 L212.2563,31 Z M209.0688,27.9219 L208.1,25.0469 L207.1156,27.9219 L209.0688,27.9219 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="221.65" y="31.8748">Implementor</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="187" x2="308" y1="40.5" y2="40.5"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="187" x2="308" y1="48.5" y2="48.5"/><ellipse cx="197" cy="59.5" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="100" x="203" y="62.7104">implementation();</text><!--MD5=[f1a4d604661cb2c437f68be1667917ff]
+class ConcreateImplementor--><rect fill="#2E2E2E" filter="url(#f1ihjm2oxu9nac)" height="54.8047" id="ConcreateImplementor" style="stroke: #1B1B1B; stroke-width: 1.5;" width="159" x="174" y="136"/><ellipse cx="186" cy="149" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M186.6406,153.1563 Q185.75,153.1563 184.9844,152.8906 Q184.2344,152.625 183.6875,152.1094 Q183.1563,151.5938 182.8438,150.8125 Q182.5469,150.0313 182.5469,149.0156 Q182.5469,148.0625 182.8281,147.2969 Q183.125,146.5156 183.6719,145.9531 Q184.1875,145.4219 184.9531,145.1406 Q185.7344,144.8438 186.6406,144.8438 Q187.1406,144.8438 187.5469,144.9063 Q187.9531,144.9531 188.2969,145.0469 Q188.6563,145.1563 188.9531,145.2813 Q189.25,145.4063 189.4688,145.5156 L189.4688,147.4531 L189.2344,147.4531 Q189.0781,147.3281 188.8438,147.1563 Q188.625,146.9688 188.3281,146.7969 Q188.0313,146.625 187.6875,146.5156 Q187.3438,146.3906 186.9531,146.3906 Q186.5156,146.3906 186.125,146.5313 Q185.7344,146.6563 185.4063,146.9844 Q185.0938,147.2813 184.8906,147.7969 Q184.7031,148.2969 184.7031,149.0156 Q184.7031,149.7656 184.9063,150.2813 Q185.125,150.7813 185.4375,151.0625 Q185.7656,151.3594 186.1719,151.4844 Q186.5781,151.6094 186.9688,151.6094 Q187.3438,151.6094 187.7031,151.5 Q188.0781,151.3906 188.3906,151.1875 Q188.6563,151.0469 188.875,150.875 Q189.1094,150.6875 189.25,150.5625 L189.4688,150.5625 L189.4688,152.4688 Q189.1719,152.6094 188.8906,152.7344 Q188.625,152.8438 188.3125,152.9219 Q187.9219,153.0313 187.5781,153.0938 Q187.2344,153.1563 186.6406,153.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="133" x="197" y="153.3748">ConcreateImplementor</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="175" x2="332" y1="162" y2="162"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="175" x2="332" y1="170" y2="170"/><ellipse cx="185" cy="181" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="100" x="191" y="184.2104">implementation();</text><!--MD5=[9b8a9978f0a7251db28d3c357ee97f99]
+reverse link Abstraction to RefinedAbstraction--><path d="M75.27,96.32 C74.7,110 74.11,124.14 73.62,135.81 " fill="none" id="Abstraction&lt;-RefinedAbstraction" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="68.28,95.98,76.11,76.29,82.26,96.56,68.28,95.98" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[c75916e4ad9e92a3f89095685e2f70f1]
+reverse link Implementor to ConcreateImplementor--><path d="M249.84,89.59 C250.62,105.2 251.47,122.06 252.15,135.64 " fill="none" id="Implementor&lt;-ConcreateImplementor" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="242.84,89.85,248.83,69.52,256.83,89.14,242.84,89.85" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[07eb4876f32b0fc987fa40c9c707c0e4]
+reverse link Abstraction to Implementor--><path d="M154.43,42 C164.84,42 175.25,42 185.66,42 " fill="none" id="Abstraction&lt;-Implementor" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#777777" points="141.25,42,147.25,46,153.25,42,147.25,38,141.25,42" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[b0f51e8d4e5254ee5f9b9830038b6028]
+@startuml bridge_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+abstract class Abstraction {
+    - Implementor impl;
+    + {abstract} function();
+}
+
+class RefinedAbstraction {
+    + function();
+}
+
+abstract class Implementor {
+    + {abstract} implementation();
+}
+
+class ConcreateImplementor {
+    + implementation();
+}
+
+Abstraction <|- - RefinedAbstraction
+Implementor <|- - ConcreateImplementor
+Abstraction o-right- Implementor
+
+@enduml
+
+@startuml bridge_pattern
+
+
+
+
+
+
+
+
+
+
+skinparam stereotypeCBackgroundColor BB6600
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor BB6600
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor BB6600
+  endColor 662200
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+abstract class Abstraction {
+    - Implementor impl;
+    + {abstract} function();
+}
+
+class RefinedAbstraction {
+    + function();
+}
+
+abstract class Implementor {
+    + {abstract} implementation();
+}
+
+class ConcreateImplementor {
+    + implementation();
+}
+
+Abstraction <|- - RefinedAbstraction
+Implementor <|- - ConcreateImplementor
+Abstraction o-right- Implementor
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 15:05:57 IST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.8+10-post-Ubuntu-0ubuntu120.04
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: IN
+--></g></svg>

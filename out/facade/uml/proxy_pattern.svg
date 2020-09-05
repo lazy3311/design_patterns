@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="236px" preserveAspectRatio="none" style="width:469px;height:236px;background:#777777;" version="1.1" viewBox="0 0 469 236" width="469px" zoomAndPan="magnify"><defs><filter height="300%" id="fwh7di7thxxuo" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[ecd2e90bd85f76d60dc87cdd02250b1b]
+cluster Package A--><polygon fill="#777777" filter="url(#fwh7di7thxxuo)" points="102,118,190,118,197,140.2969,200,140.2969,200,224,102,224,102,118" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="102" x2="197" y1="140.2969" y2="140.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="106" y="132.9951">Package A</text><!--MD5=[def2a43f9e6d31b370385c75479b142a]
+cluster Package B--><polygon fill="#777777" filter="url(#fwh7di7thxxuo)" points="224,118,311,118,318,140.2969,322,140.2969,322,224,224,224,224,118" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="224" x2="318" y1="140.2969" y2="140.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="81" x="228" y="132.9951">Package B</text><!--MD5=[ca66430013dec83b1dbf950cee73fbca]
+class ClassA--><rect fill="#2E2E2E" filter="url(#fwh7di7thxxuo)" height="54.8047" id="ClassA" style="stroke: #1B1B1B; stroke-width: 1.5;" width="65" x="118.5" y="153"/><ellipse cx="130.5" cy="166" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M131.1406,170.1563 Q130.25,170.1563 129.4844,169.8906 Q128.7344,169.625 128.1875,169.1094 Q127.6563,168.5938 127.3438,167.8125 Q127.0469,167.0313 127.0469,166.0156 Q127.0469,165.0625 127.3281,164.2969 Q127.625,163.5156 128.1719,162.9531 Q128.6875,162.4219 129.4531,162.1406 Q130.2344,161.8438 131.1406,161.8438 Q131.6406,161.8438 132.0469,161.9063 Q132.4531,161.9531 132.7969,162.0469 Q133.1563,162.1563 133.4531,162.2813 Q133.75,162.4063 133.9688,162.5156 L133.9688,164.4531 L133.7344,164.4531 Q133.5781,164.3281 133.3438,164.1563 Q133.125,163.9688 132.8281,163.7969 Q132.5313,163.625 132.1875,163.5156 Q131.8438,163.3906 131.4531,163.3906 Q131.0156,163.3906 130.625,163.5313 Q130.2344,163.6563 129.9063,163.9844 Q129.5938,164.2813 129.3906,164.7969 Q129.2031,165.2969 129.2031,166.0156 Q129.2031,166.7656 129.4063,167.2813 Q129.625,167.7813 129.9375,168.0625 Q130.2656,168.3594 130.6719,168.4844 Q131.0781,168.6094 131.4688,168.6094 Q131.8438,168.6094 132.2031,168.5 Q132.5781,168.3906 132.8906,168.1875 Q133.1563,168.0469 133.375,167.875 Q133.6094,167.6875 133.75,167.5625 L133.9688,167.5625 L133.9688,169.4688 Q133.6719,169.6094 133.3906,169.7344 Q133.125,169.8438 132.8125,169.9219 Q132.4219,170.0313 132.0781,170.0938 Q131.7344,170.1563 131.1406,170.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="39" x="141.5" y="170.3748">ClassA</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="119.5" x2="182.5" y1="179" y2="179"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="119.5" x2="182.5" y1="187" y2="187"/><ellipse cx="129.5" cy="198" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="39" x="135.5" y="201.2104">do_a();</text><!--MD5=[bec7b9779c4af2a63aafd425c74f388a]
+class ClassB--><rect fill="#2E2E2E" filter="url(#fwh7di7thxxuo)" height="54.8047" id="ClassB" style="stroke: #1B1B1B; stroke-width: 1.5;" width="65" x="240.5" y="153"/><ellipse cx="252.5" cy="166" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M253.1406,170.1563 Q252.25,170.1563 251.4844,169.8906 Q250.7344,169.625 250.1875,169.1094 Q249.6563,168.5938 249.3438,167.8125 Q249.0469,167.0313 249.0469,166.0156 Q249.0469,165.0625 249.3281,164.2969 Q249.625,163.5156 250.1719,162.9531 Q250.6875,162.4219 251.4531,162.1406 Q252.2344,161.8438 253.1406,161.8438 Q253.6406,161.8438 254.0469,161.9063 Q254.4531,161.9531 254.7969,162.0469 Q255.1563,162.1563 255.4531,162.2813 Q255.75,162.4063 255.9688,162.5156 L255.9688,164.4531 L255.7344,164.4531 Q255.5781,164.3281 255.3438,164.1563 Q255.125,163.9688 254.8281,163.7969 Q254.5313,163.625 254.1875,163.5156 Q253.8438,163.3906 253.4531,163.3906 Q253.0156,163.3906 252.625,163.5313 Q252.2344,163.6563 251.9063,163.9844 Q251.5938,164.2813 251.3906,164.7969 Q251.2031,165.2969 251.2031,166.0156 Q251.2031,166.7656 251.4063,167.2813 Q251.625,167.7813 251.9375,168.0625 Q252.2656,168.3594 252.6719,168.4844 Q253.0781,168.6094 253.4688,168.6094 Q253.8438,168.6094 254.2031,168.5 Q254.5781,168.3906 254.8906,168.1875 Q255.1563,168.0469 255.375,167.875 Q255.6094,167.6875 255.75,167.5625 L255.9688,167.5625 L255.9688,169.4688 Q255.6719,169.6094 255.3906,169.7344 Q255.125,169.8438 254.8125,169.9219 Q254.4219,170.0313 254.0781,170.0938 Q253.7344,170.1563 253.1406,170.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="39" x="263.5" y="170.3748">ClassB</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="241.5" x2="304.5" y1="179" y2="179"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="241.5" x2="304.5" y1="187" y2="187"/><ellipse cx="251.5" cy="198" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="39" x="257.5" y="201.2104">do_b();</text><!--MD5=[790e9955d9690e5344ead96b2c38e22e]
+class Facade--><rect fill="#2E2E2E" filter="url(#fwh7di7thxxuo)" height="54.8047" id="Facade" style="stroke: #1B1B1B; stroke-width: 1.5;" width="115" x="163.5" y="12"/><ellipse cx="197.55" cy="25" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M198.1906,29.1563 Q197.3,29.1563 196.5344,28.8906 Q195.7844,28.625 195.2375,28.1094 Q194.7063,27.5938 194.3938,26.8125 Q194.0969,26.0313 194.0969,25.0156 Q194.0969,24.0625 194.3781,23.2969 Q194.675,22.5156 195.2219,21.9531 Q195.7375,21.4219 196.5031,21.1406 Q197.2844,20.8438 198.1906,20.8438 Q198.6906,20.8438 199.0969,20.9063 Q199.5031,20.9531 199.8469,21.0469 Q200.2063,21.1563 200.5031,21.2813 Q200.8,21.4063 201.0188,21.5156 L201.0188,23.4531 L200.7844,23.4531 Q200.6281,23.3281 200.3938,23.1563 Q200.175,22.9688 199.8781,22.7969 Q199.5813,22.625 199.2375,22.5156 Q198.8938,22.3906 198.5031,22.3906 Q198.0656,22.3906 197.675,22.5313 Q197.2844,22.6563 196.9563,22.9844 Q196.6438,23.2813 196.4406,23.7969 Q196.2531,24.2969 196.2531,25.0156 Q196.2531,25.7656 196.4563,26.2813 Q196.675,26.7813 196.9875,27.0625 Q197.3156,27.3594 197.7219,27.4844 Q198.1281,27.6094 198.5188,27.6094 Q198.8938,27.6094 199.2531,27.5 Q199.6281,27.3906 199.9406,27.1875 Q200.2063,27.0469 200.425,26.875 Q200.6594,26.6875 200.8,26.5625 L201.0188,26.5625 L201.0188,28.4688 Q200.7219,28.6094 200.4406,28.7344 Q200.175,28.8438 199.8625,28.9219 Q199.4719,29.0313 199.1281,29.0938 Q198.7844,29.1563 198.1906,29.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="40" x="213.45" y="29.3748">Facade</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="164.5" x2="277.5" y1="38" y2="38"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="164.5" x2="277.5" y1="46" y2="46"/><ellipse cx="174.5" cy="57" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="92" x="180.5" y="60.2104">do_something();</text><!--MD5=[0ba5ee7700168656dc1b457c6fe9fdac]
+entity Client--><rect fill="#556B2F" filter="url(#fwh7di7thxxuo)" height="33.3687" style="stroke: #1B1B1B; stroke-width: 1.5;" width="53" x="405.5" y="23"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="33" x="415.5" y="44.0591">Client</text><path d="M6,8 L6,71.4746 A0,0 0 0 0 6,71.4746 L128,71.4746 A0,0 0 0 0 128,71.4746 L128,43.5 L163.27,39.5 L128,35.5 L128,18 L118,8 L6,8 A0,0 0 0 0 6,8 " fill="#BB6600" filter="url(#fwh7di7thxxuo)" style="stroke: #662200; stroke-width: 1.0;"/><path d="M118,8 L118,18 L128,18 L118,8 " fill="#BB6600" style="stroke: #662200; stroke-width: 1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="101" x="12" y="24.0591">do_something() {</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="16" y="37.4277">classA.do_a()</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="16" y="50.7964">classB.do_b()</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="12" y="64.165">}</text><!--MD5=[1289d6cd8ed33ed9c30232a07c48fb3c]
+reverse link Facade to Client--><path d="M284.05,39.5 C324.6,39.5 375.19,39.5 405.48,39.5 " fill="none" id="Facade&lt;-Client" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="278.66,39.5,287.66,43.5,283.66,39.5,287.66,35.5,278.66,39.5" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="297" y="33.5591">do_something()</text><!--MD5=[63e9ea0814afa2535a245524b95851b4]
+link Facade to ClassA--><path d="M207.5,67.3 C195.88,90.38 179.1,123.7 166.84,148.04 " fill="none" id="Facade-&gt;ClassA" style="stroke: #FFFFFF; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#FFFFFF" points="164.46,152.78,172.0706,146.5287,166.7018,148.3107,164.9198,142.9419,164.46,152.78" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[2f8a84499aa84f75d24551d6f2afec5c]
+link Facade to ClassB--><path d="M231.03,67.3 C239.66,90.38 252.13,123.7 261.23,148.04 " fill="none" id="Facade-&gt;ClassB" style="stroke: #FFFFFF; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#FFFFFF" points="263,152.78,263.6115,142.9501,261.2569,148.0937,256.1134,145.7391,263,152.78" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[c1613dd4587dd29fb100f11453a4c15a]
+@startuml proxy_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+class Facade {
+    + do_something();
+}
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+
+Client -left-> Facade : do_something()
+note left of Facade : do_something() {\n classA.do_a()\n classB.do_b()\n}
+
+package "Package A" {
+  class ClassA {
+    + do_a();
+  }
+  ClassA <.down. Facade
+}
+
+package "Package B" {
+
+  class ClassB {
+    + do_b();
+  }
+  ClassB <.down. Facade
+}
+
+@enduml
+
+@startuml proxy_pattern
+
+
+
+
+
+
+
+
+
+
+skinparam stereotypeCBackgroundColor BB6600
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor BB6600
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor BB6600
+  endColor 662200
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+class Facade {
+    + do_something();
+}
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+
+Client -left-> Facade : do_something()
+note left of Facade : do_something() {\n classA.do_a()\n classB.do_b()\n}
+
+package "Package A" {
+  class ClassA {
+    + do_a();
+  }
+  ClassA <.down. Facade
+}
+
+package "Package B" {
+
+  class ClassB {
+    + do_b();
+  }
+  ClassB <.down. Facade
+}
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 15:05:57 IST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.8+10-post-Ubuntu-0ubuntu120.04
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: IN
+--></g></svg>

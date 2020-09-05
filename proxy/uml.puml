@@ -1,0 +1,26 @@
+@startuml proxy_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+abstract class Subject {
+    + {abstract} do_action();
+}
+
+class RealSubject {
+    + do_action();
+}
+
+class Proxy {
+    + do_action();
+}
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+
+Client -left-> Subject
+Subject <|-- RealSubject
+Subject <|-- Proxy
+RealSubject <-left- Proxy : <<delegate>>
+
+@enduml

@@ -1,0 +1,26 @@
+@startuml startergy_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+class Context <<Animal>>{
+    + operation();
+}
+
+abstract class Startergy <<IMoveBehavior>> {
+    + {abstract} execute();
+}
+
+class ConcreateStartergyA <<Running>> {
+    + execute();
+}
+
+class ConcreateStartergyB <<Walking>> {
+    + execute();
+}
+
+Context -right-> Startergy : startergy
+Startergy <|-- ConcreateStartergyA
+Startergy <|-- ConcreateStartergyB
+
+@enduml
