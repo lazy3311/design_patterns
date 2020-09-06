@@ -3,7 +3,7 @@
 !define DARKORANGE
 !includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
 
-abstract class Abstraction {
+abstract class Abstraction <<Window>>{
     - Implementor impl;
     + {abstract} function();
 }
@@ -12,7 +12,7 @@ class RefinedAbstraction {
     + function();
 }
 
-abstract class Implementor {
+abstract class Implementor <<View>>{
     + {abstract} implementation();
 }
 
@@ -23,5 +23,10 @@ class ConcreateImplementor {
 Abstraction <|-- RefinedAbstraction
 Implementor <|-- ConcreateImplementor
 Abstraction o-right- Implementor
+
+note "LongWindow and ShortWindow" as N1
+N1 .up. RefinedAbstraction
+note "MusicAlbumView and BookView" as N2
+N2 .up. ConcreateImplementor
 
 @enduml
