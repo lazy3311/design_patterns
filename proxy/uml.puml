@@ -3,15 +3,15 @@
 !define DARKORANGE
 !includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
 
-abstract class Subject {
+abstract class Subject <<Image>>{
     + {abstract} do_action();
 }
 
-class RealSubject {
+class RealSubject <<RealImage>>{
     + do_action();
 }
 
-class Proxy {
+class Proxy <<ProxyImage>>{
     + do_action();
 }
 
