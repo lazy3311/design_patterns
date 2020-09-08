@@ -3,23 +3,32 @@
 !define DARKORANGE
 !includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
 
-abstract class Abstract <<Game>> {
-    + template_method();
-    + {abstract} primitive_method1();
-    + {abstract} primitive_method2();
+abstract class IterableCollection <<SongsCollection>> {
+    + {abstract} create_iterator();
 }
 
-class ConcreateImplementatioA <<Mario>>{
-    + primitive_method1();
-    + primitive_method2();
+abstract class Iterator <<Iterator>> {
+    + {abstract} has_next();
+    + {abstract} next();
 }
 
-class ConcreateImplementatioB <<TankFight>>{
-    + primitive_method1();
-    + primitive_method2();
+class ConcreateCollection <<SongsOf80s, SongsOf90s>>{
+    + create_iterator();
 }
 
-Abstract <|-- ConcreateImplementatioA
-Abstract <|-- ConcreateImplementatioB
+class ConcreateIterator <<StaticArrayIterator, DynamicArrayIterator>>{
+    + has_next();
+    + next();
+}
 
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+Client --> IterableCollection
+Client --> Iterator
+
+IterableCollection <|-- ConcreateCollection
+Iterator <|-- ConcreateIterator
+ConcreateCollection .left.> ConcreateIterator : <<create>>
+ConcreateCollection <-- ConcreateIterator
 @enduml
