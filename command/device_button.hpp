@@ -4,12 +4,12 @@
 
 class DeviceButton {
     private:
-        Command *the_command;
+        Command *the_command_;
     public:
-        DeviceButton(Command *new_command): the_command(new_command) {}
+        DeviceButton(Command *new_command): the_command_(new_command) {}
 
         void press() {
-            the_command->execute();
+            the_command_->execute();
         }
 };
 

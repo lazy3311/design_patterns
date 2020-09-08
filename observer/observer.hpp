@@ -5,7 +5,7 @@
 
 class IObserver {
     private:
-        std::string name;
+        std::string name_;
 
     public:
         IObserver(IStation &station) {
@@ -15,11 +15,11 @@ class IObserver {
         virtual void update(float temperature, float humidity, float percipitation) = 0;
 
         void set_name(std::string &name) {
-            this->name = name;
+            this->name_ = name;
         }
 
         std::string get_name() {
-            return this->name;
+            return this->name_;
         }
 };
 #endif

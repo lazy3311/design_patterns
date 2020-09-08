@@ -8,12 +8,10 @@
 
 int main(int argc, char** argv) {
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "                  COMMAND PATTERN" << std::endl;
+    std::cout << "                  ADAPTER PATTERN : Structural" << std::endl;
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "The adapter pattern is a software design pattern that allows the\\
-    \n\rinterface of an existing class to be used as another interface.\\
-    \n\rIt is often used to make existing classes work with others without\\
-    \n\rmodifying their source code" << std::endl;
+    std::cout << "Adapter is a structural design pattern that allows objects with \\
+    \n\rincompatible interfaces to collaborate." << std::endl;
     std::cout << "-------------------------------------------------------------------" << std::endl;
 
     USAPlug *usa_plug = new USAPlug();

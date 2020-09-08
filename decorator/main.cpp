@@ -6,12 +6,11 @@
 int main(int argc, char** argv) 
 {
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "                  DECORATOR PATTERN" << std::endl;
+    std::cout << "                  DECORATOR PATTERN : Structural" << std::endl;
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "In object-oriented programming, the decorator pattern is a\\ 
-    \n\rdesign pattern that allows behavior to be added to an\\
-    \n\rindividual object, dynamically, without affecting the\\
-    \n\rbehavior of other objects from the same class." << std::endl;
+    std::cout << "Decorator is a structural design pattern that lets you attach \\
+    \n\rnew behaviors to objects by placing these objects inside special wrapper \\
+    \n\robjects that contain the behaviors." << std::endl;
     std::cout << "-------------------------------------------------------------------\n" << std::endl;
     
     IPizza *pizza = new ToppingMozarella(new ToppingSauce(new ThinCrustPizza()));

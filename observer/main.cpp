@@ -8,12 +8,11 @@
 int main(int argc, char **argv)
 {
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "                  OBSERVER PATTERN" << std::endl;
+    std::cout << "                  OBSERVER PATTERN : Behavioral" << std::endl;
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "The observer pattern is a software design pattern in which an object,\n\\
-    \rcalled the subject, maintains a list of its dependents, called observers, \n\\
-    \rand notifies them automatically of any state changes, \n\\
-    \rusually by calling one of their methods." << std::endl;
+    std::cout << "Observer is a behavioral design pattern that lets you define a \\
+    \n\rsubscription mechanism to notify multiple objects about any events that happen \\
+    \n\rto the object they’re observing." << std::endl;
     std::cout << "-------------------------------------------------------------------\n" << std::endl;
     
     std::list<IObserver *> registered_observer;

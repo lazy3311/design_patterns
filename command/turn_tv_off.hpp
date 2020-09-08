@@ -5,12 +5,12 @@
 
 class TurnTvOff: public Command {
     private:
-        ElectronicDevice *the_device;
+        ElectronicDevice *the_device_;
     public:
-        TurnTvOff(ElectronicDevice *new_device): the_device(new_device) {}
+        TurnTvOff(ElectronicDevice *new_device): the_device_(new_device) {}
 
         void execute() {
-            the_device->off();
+            the_device_->off();
         }
 };
 

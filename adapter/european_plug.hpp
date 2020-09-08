@@ -5,8 +5,8 @@ class EuropeanPlug: public Plug {
    
     public:
         EuropeanPlug(): Plug() {
-            pin_numbers = 3;
-            name = "european plug";
+            pin_numbers_ = 3;
+            name_ = "european plug";
         }        
 };
 #endif

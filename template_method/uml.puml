@@ -1,0 +1,25 @@
+@startuml template_method
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+abstract class Abstract <<Game>> {
+    + template_method();
+    + {abstract} primitive_method1();
+    + {abstract} primitive_method2();
+}
+
+class ConcreateImplementatioA <<Mario>>{
+    + primitive_method1();
+    + primitive_method2();
+}
+
+class ConcreateImplementatioB <<TankFight>>{
+    + primitive_method1();
+    + primitive_method2();
+}
+
+Abstract <|-- ConcreateImplementatioA
+Abstract <|-- ConcreateImplementatioB
+
+@enduml

@@ -6,10 +6,11 @@
 
 int main(int argc, char** argv) {
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "                  BRIDGE PATTERN" << std::endl;
+    std::cout << "                  BRIDGE PATTERN : Structural" << std::endl;
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "Decouple an abstraction from its implementation \\
-    \n\rso that the two can vary inde-pendently." << std::endl;
+    std::cout << "Bridge is a structural design pattern that lets you split a large \\
+    \n\rclass or a set of closely related classes into two separate hierarchies—abstraction \\
+    \n\rand implementation—which can be developed independently of each other." << std::endl;
     std::cout << "-------------------------------------------------------------------" << std::endl;
 
     std::map<std::string, std::string> music_content;

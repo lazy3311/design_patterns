@@ -5,16 +5,16 @@
 
 class Window {
     protected:
-        std::map<std::string, std::string> content;
-        View *view;
+        std::map<std::string, std::string> content_;
+        View *view_;
     public:
 
         void set_content(std::map<std::string, std::string> &new_content){
-            content = new_content;
+            content_ = new_content;
         }
 
         void set_view(View *new_view) {
-            view = new_view;
+            view_ = new_view;
         }
 
         virtual void DrawContents() = 0;

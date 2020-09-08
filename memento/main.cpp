@@ -2,10 +2,11 @@
 
 int main(int argc, char **argv) {
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "                  MEMENTO PATTERN" << std::endl;
+    std::cout << "                  MEMENTO PATTERN : Behavioral" << std::endl;
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "The memento pattern is a software design pattern that provides the\\ 
-    \n\rability to restore an object to its previous state (undo via rollback)." << std::endl;
+    std::cout << "Memento is a behavioral design pattern that lets you save and \\
+    \n\rrestore the previous state of an object without revealing the details of \\
+    \n\rits implementation. (undo via rollback)." << std::endl;
     std::cout << "-------------------------------------------------------------------\n" << std::endl;
     
     Editor editor;

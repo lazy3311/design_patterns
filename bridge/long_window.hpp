@@ -9,7 +9,7 @@ class LongWindow : public Window {
         void DrawContents() {
             std::cout << "-------------------------" << std::endl;
             std::cout << "Long Window : ";
-            view->DrawView(content);
+            view_->DrawView(content_);
         }
 };
 

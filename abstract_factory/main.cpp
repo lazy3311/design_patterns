@@ -4,16 +4,15 @@
 
 int main(int argc, char** argv) {
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "              ABSTRACT FACTORY PATTERN" << std::endl;
+    std::cout << "              ABSTRACT FACTORY PATTERN : Creational" << std::endl;
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "The abstract factory pattern provides a way to encapsulate a group\\
-    \n\rof individual factories that have a common theme without specifying\\
-    \n\rtheir concrete classes." << std::endl;
+    std::cout << "Abstract Factory is a creational design pattern that lets you \\
+    \n\rproduce families of related objects without specifying their concrete classes." << std::endl;
     std::cout << "-------------------------------------------------------------------" << std::endl;
     
 
     while(true) {
-        std::cout << "\n 1. Vegan\n 2. Wild\n 2. Exit" << std::endl;
+        std::cout << "\n 1. Vegan\n 2. Wild\n 3. Exit" << std::endl;
         int option;
 
         std::cin >> option;

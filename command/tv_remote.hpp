@@ -10,41 +10,41 @@
 
 class TvRemote {
     private:
-        ElectronicDevice *tv_device;
-        DeviceButton *button_on;
-        DeviceButton *button_off;
-        DeviceButton *button_volumeup;
-        DeviceButton *button_volumedown;
+        ElectronicDevice *tv_device_;
+        DeviceButton *button_on_;
+        DeviceButton *button_off_;
+        DeviceButton *button_volumeup_;
+        DeviceButton *button_volumedown_;
 
     public:
-        TvRemote(ElectronicDevice *new_device): tv_device(new_device) {
+        TvRemote(ElectronicDevice *new_device): tv_device_(new_device) {
             TurnTvOn *command_tv_on = new TurnTvOn(new_device);
-            button_on = new DeviceButton(command_tv_on);
+            button_on_ = new DeviceButton(command_tv_on);
 
             TurnTvOff *command_tv_off = new TurnTvOff(new_device);
-            button_off = new DeviceButton(command_tv_off);
+            button_off_ = new DeviceButton(command_tv_off);
             
             TurnTvVolumeUp *command_tv_volumeup = new TurnTvVolumeUp(new_device);
-            button_volumeup = new DeviceButton(command_tv_volumeup);
+            button_volumeup_ = new DeviceButton(command_tv_volumeup);
             
             TurnTvVolumeDown *command_tv_volumedown = new TurnTvVolumeDown(new_device);
-            button_volumedown = new DeviceButton(command_tv_volumedown);
+            button_volumedown_ = new DeviceButton(command_tv_volumedown);
         }
         
         void press_on() {
-            button_on->press();
+            button_on_->press();
         }
 
         void press_off() {
-            button_off->press();
+            button_off_->press();
         }
 
         void press_volume_up() {
-            button_volumeup->press();
+            button_volumeup_->press();
         }
 
         void press_volume_down() {
-            button_volumedown->press();
+            button_volumedown_->press();
         }
 };
 

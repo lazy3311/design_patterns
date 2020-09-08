@@ -5,18 +5,18 @@
 
 class RealImage: public Image {
     private:
-        std::string filename;
+        std::string filename_;
     public:
         RealImage(std::string &image_name) {
-            this->filename = image_name;
+            this->filename_ = image_name;
             this->load_image();
         }
 
         void load_image() {
-            std::cout << this->filename << " loading..." << std::endl;
+            std::cout << this->filename_ << " loading..." << std::endl;
         }
         void display() {
-            std::cout << this->filename << " displaying..." << std::endl;
+            std::cout << this->filename_ << " displaying..." << std::endl;
         }
 };
 

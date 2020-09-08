@@ -5,7 +5,7 @@
 
 int main(int argc, char** argv) {
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "                  COMMAND PATTERN" << std::endl;
+    std::cout << "                  COMMAND PATTERN : Behavioral" << std::endl;
     std::cout << "-------------------------------------------------------------------" << std::endl;
     std::cout << "The command pattern is a behavioral design pattern in which\\
     \n\ran object is used to encapsulate all information needed to \\

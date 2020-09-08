@@ -4,12 +4,11 @@
 int main(int argc, char **argv)
 {
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "                  STARTERGY PATTERN" << std::endl;
+    std::cout << "                  STARTERGY PATTERN : Behavioral" << std::endl;
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "The strategy pattern is a behavioral software design pattern that \n\\
-    \renables selecting an algorithm at runtime. Instead of implementing\n\\
-    \ra single algorithm directly, code receives run-time instructions as\n\\
-    \rto which in a family of algorithms to use." << std::endl;
+    std::cout << "Strategy is a behavioral design pattern that lets you define a \\
+    \n\rfamily of algorithms, put each of them into a separate class, and make their \\
+    \n\robjects interchangeable." << std::endl;
     std::cout << "-------------------------------------------------------------------\n" << std::endl;
     
     Animal animal;

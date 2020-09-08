@@ -7,8 +7,8 @@ class USAPlug: public Plug {
    
     public:
         USAPlug(): Plug() {
-            pin_numbers = 2;
-            name = "usa plug";
+            pin_numbers_ = 2;
+            name_ = "usa plug";
         }        
 };
 #endif

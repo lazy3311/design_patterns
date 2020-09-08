@@ -9,24 +9,24 @@ enum tv_state {
 
 class ElectronicDevice {
     protected:
-        int volume;
-        tv_state state;
+        int volume_;
+        tv_state state_;
     public:
         ElectronicDevice() {
-            volume = 0;
-            state = OFF;
+            volume_ = 0;
+            state_ = OFF;
         }
 
         void set_onstate() {
-            state = ON;
+            state_ = ON;
         }
 
         void set_offstate() {
-            state = OFF;
+            state_ = OFF;
         }
         
         tv_state get_state() {
-            return state;
+            return state_;
         }
 
         virtual void on() = 0;

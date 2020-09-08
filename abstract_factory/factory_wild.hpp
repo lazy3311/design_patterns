@@ -9,7 +9,7 @@ class FactoryWild:public FactoryAnimal {
     public:
         Animal * create_animal(std::string &animal_type) {
             if (animal_type == "Tiger")
-                return new Cow();
+                return new Tiger();
             else
                 return NULL;
         }

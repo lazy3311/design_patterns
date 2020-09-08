@@ -20,14 +20,14 @@ class Television: public ElectronicDevice {
             if (get_state() == OFF)
                 std::cout << "Oops: Televison is OFF";
             else
-                std::cout << "Television Volume is UP: " << ++volume << std::endl;
+                std::cout << "Television Volume is UP: " << ++volume_ << std::endl;
         }
 
         void volume_down() {
             if (get_state() == OFF)
                 std::cout << "Oops: Televison is OFF";
             else
-                std::cout << "Television Volume is DOWN: " << --volume << std::endl;
+                std::cout << "Television Volume is DOWN: " << --volume_ << std::endl;
         }
 };
 

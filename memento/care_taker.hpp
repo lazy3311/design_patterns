@@ -7,18 +7,18 @@
 
 class CareTaker {
     private:
-        std::vector<Memento *> history;
+        std::vector<Memento *> history_;
 
     public:
         CareTaker() {
         }
         
         void add_memento(Memento *memento) {
-            history.emplace_back(memento);
+            history_.emplace_back(memento);
         }
 
         Memento * get_memento(unsigned int index) {
-            return history.at(index);
+            return history_.at(index);
         }
 };
 

@@ -9,13 +9,13 @@ class Editor {
         CareTaker care_taker_;
         Originator originator_;
 
-        signed int current;
-        unsigned int stored;
+        signed int current_;
+        unsigned int stored_;
 
     public:
         Editor() {
-            current = -1;
-            stored = 0;
+            current_ = -1;
+            stored_ = 0;
         }
 
         void save() {
@@ -24,28 +24,28 @@ class Editor {
             std::cin >> data;
             if (!data.empty()) {
                 care_taker_.add_memento(originator_.store_memento(data));
-                current++;
-                stored++;
+                current_++;
+                stored_++;
             }
         }
 
         void show() {
-            if (current > -1)
-                std::cout << "Show: " << originator_.restore_memento(care_taker_.get_memento(current)) << std::endl; 
+            if (current_ > -1)
+                std::cout << "Show: " << originator_.restore_memento(care_taker_.get_memento(current_)) << std::endl; 
             else
                 std::cout << "None" << std::endl;
         }
 
         void undo() {
-            if (current > -1)
-                current--;
+            if (current_ > -1)
+                current_--;
             
             show();
         }
 
         void redo() {
-            if (stored > (current + 1))
-                current++;
+            if (stored_ > (current_ + 1))
+                current_++;
 
             show();
         }

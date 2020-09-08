@@ -8,7 +8,7 @@ class ShortWindow : public Window {
         void DrawContents() {
             std::cout << "-------------------------" << std::endl;
             std::cout << "Short Window : ";
-            view->DrawView(content);
+            view_->DrawView(content_);
         }
 };
 

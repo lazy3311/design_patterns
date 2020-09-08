@@ -4,12 +4,10 @@ Singelton *Singelton::instance_ = nullptr;
 
 int main(int argc, char **argv) {
      std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "                  SINGELTON PATTERN" << std::endl;
+    std::cout << "                  SINGELTON PATTERN : Creational" << std::endl;
     std::cout << "-------------------------------------------------------------------" << std::endl;
-    std::cout << "The singleton pattern is a software design pattern that restricts\\
-    \n\rthe instantiation of a class to one instance. This is useful\\
-    \n\rwhen exactly one object is needed to coordinate actions\\
-    \n\racross the system. . " << std::endl;
+    std::cout << "Singleton is a creational design pattern that lets you ensure that a\\
+    \n\rclass has only one instance, while providing a global access point to this instance..." << std::endl;
     std::cout << "-------------------------------------------------------------------" << std::endl;
    
     Singelton *handle = Singelton::get_instance();

@@ -5,14 +5,14 @@
 
 class ProxyImage: public Image {
     private:
-        RealImage *real;
+        RealImage *real_;
     public:
         ProxyImage(std::string &image_name) {
-            real = new RealImage(image_name);
+            real_ = new RealImage(image_name);
         }
 
         void display() {
-            real->display();
+            real_->display();
         }
 };
 
