@@ -1,0 +1,31 @@
+@startuml composite_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+abstract class Component <<SongComponent>> {
+    + {abstract} operation();
+}
+
+class Composite <<SongGroup>> {
+    - list<component>
+    + add();
+    + remove();
+    + get_components();
+    + operation();
+}
+
+class Leaf <<Song>> {
+    + operation();
+}
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+Client --> Component 
+
+Component <|-right- Composite
+Component <|-down- Leaf
+Composite "1" --> "0..*" Component 
+
+
+@enduml
