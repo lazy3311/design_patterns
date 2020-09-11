@@ -1,0 +1,29 @@
+@startuml prototype_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+
+abstract class ProtoType <<Animal>> {
+    + {abstract} clone();
+}
+
+class ConcreateProtoTypeA <<Wild>> {
+    + clone();
+}
+
+class ConcreateProtoTypeB <<Pet>> {
+    + clone();
+}
+
+Client -right-> ProtoType : clone()
+
+ProtoType <|-- ConcreateProtoTypeA
+ProtoType <|-- ConcreateProtoTypeB
+
+note "return copy of self" as N1
+ConcreateProtoTypeA .. N1
+ConcreateProtoTypeB .. N1
+@enduml
