@@ -1,0 +1,35 @@
+@startuml state_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+
+class Context <<ATMMachine>> {
+    - State state;
+    + request();
+    + set_state();
+}
+
+abstract class State <<ATMState>> {
+    - Context context;
+    + State(Context *);
+    + {abstract} handle();
+}
+
+class ConcreateStateA <<NoCardState>> {
+    + handle();
+}
+
+class ConcreateStateB <<HasPin>> {
+    + handle();
+}
+
+Client -right-> Context
+Context --> State : state->handle()
+State ..> Context : context->set_state()
+State <|-- ConcreateStateA
+State <|-- ConcreateStateB
+
+@enduml
