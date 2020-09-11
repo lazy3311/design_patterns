@@ -1,0 +1,48 @@
+@startuml builder_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+
+class Director <<CarDirector>> {
+    - Builder builder;
+    + set_builder(Builder *bldr);
+    + build_product();
+}
+
+abstract class Builder <<CarBuilder>> {
+    + {abstract} build_part1();
+    + {abstract} build_part2();
+}
+
+class ConcreateBuilderA <<PassangerCarBuilder>> {
+    - ProductA product;
+    + build_part1();
+    + build_part2();
+    + ProductA get_product();
+}
+
+class ConcreateBuilderB <<SportsCarBuilder>> {
+    - ProductB product;
+    + build_part1();
+    + build_part2();
+    + ProductB get_product();
+}
+
+class ProductA <<PassengerCar>> {
+}
+
+class ProductB <<SportsCar>> {
+}
+
+Client -down-> Director
+Client -down-> Builder
+Builder <|-- ConcreateBuilderA
+Builder <|-- ConcreateBuilderB
+Builder <-left-o Director
+ConcreateBuilderA -> ProductA
+ConcreateBuilderB -> ProductB
+
+@enduml

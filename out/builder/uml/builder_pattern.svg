@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="366px" preserveAspectRatio="none" style="width:643px;height:366px;background:#777777;" version="1.1" viewBox="0 0 643 366" width="643px" zoomAndPan="magnify"><defs><filter height="300%" id="f1gpe783oa1290" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0ba5ee7700168656dc1b457c6fe9fdac]
+entity Client--><rect fill="#556B2F" filter="url(#f1gpe783oa1290)" height="33.3687" style="stroke: #1B1B1B; stroke-width: 1.5;" width="53" x="312.5" y="8"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="33" x="322.5" y="29.0591">Client</text><!--MD5=[57adcbfcd00175f9b7abe25398e7de0c]
+class Director--><rect fill="#2E2E2E" filter="url(#f1gpe783oa1290)" height="90.5874" id="Director" style="stroke: #1B1B1B; stroke-width: 1.5;" width="170" x="339" y="101"/><ellipse cx="383" cy="119.0867" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M383.6406,123.2429 Q382.75,123.2429 381.9844,122.9773 Q381.2344,122.7117 380.6875,122.196 Q380.1563,121.6804 379.8438,120.8992 Q379.5469,120.1179 379.5469,119.1023 Q379.5469,118.1492 379.8281,117.3835 Q380.125,116.6023 380.6719,116.0398 Q381.1875,115.5085 381.9531,115.2273 Q382.7344,114.9304 383.6406,114.9304 Q384.1406,114.9304 384.5469,114.9929 Q384.9531,115.0398 385.2969,115.1335 Q385.6563,115.2429 385.9531,115.3679 Q386.25,115.4929 386.4688,115.6023 L386.4688,117.5398 L386.2344,117.5398 Q386.0781,117.4148 385.8438,117.2429 Q385.625,117.0554 385.3281,116.8835 Q385.0313,116.7117 384.6875,116.6023 Q384.3438,116.4773 383.9531,116.4773 Q383.5156,116.4773 383.125,116.6179 Q382.7344,116.7429 382.4063,117.071 Q382.0938,117.3679 381.8906,117.8835 Q381.7031,118.3835 381.7031,119.1023 Q381.7031,119.8523 381.9063,120.3679 Q382.125,120.8679 382.4375,121.1492 Q382.7656,121.446 383.1719,121.571 Q383.5781,121.696 383.9688,121.696 Q384.3438,121.696 384.7031,121.5867 Q385.0781,121.4773 385.3906,121.2742 Q385.6563,121.1335 385.875,120.9617 Q386.1094,120.7742 386.25,120.6492 L386.4688,120.6492 L386.4688,122.5554 Q386.1719,122.696 385.8906,122.821 Q385.625,122.9304 385.3125,123.0085 Q384.9219,123.1179 384.5781,123.1804 Q384.2344,123.2429 383.6406,123.2429 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="397" y="116.2104">«CarDirector»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="46" x="413.5" y="129.8638">Director</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="340" x2="508" y1="137.1733" y2="137.1733"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="347" y="145.1733"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="87" x="356" y="151.3838">Builder builder;</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="340" x2="508" y1="157.978" y2="157.978"/><ellipse cx="350" cy="168.978" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="147" x="356" y="172.1885">set_builder(Builder *bldr);</text><ellipse cx="350" cy="181.7827" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="88" x="356" y="184.9932">build_product();</text><!--MD5=[a8dc8aefce085dae70bec15e302cfec9]
+class Builder--><rect fill="#2E2E2E" filter="url(#f1gpe783oa1290)" height="77.7827" id="Builder" style="stroke: #1B1B1B; stroke-width: 1.5;" width="98" x="206" y="107.5"/><ellipse cx="218.9" cy="125.5867" fill="#A9DCDF" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M222.8063,129.0867 L220.6813,129.0867 L220.1188,127.4773 L217.1656,127.4773 L216.6031,129.0867 L214.525,129.0867 L217.4781,121.0867 L219.8531,121.0867 L222.8063,129.0867 Z M219.6188,126.0085 L218.65,123.1335 L217.6656,126.0085 L219.6188,126.0085 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="228.1" y="122.7104">«CarBuilder»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="245.1" y="136.3638">Builder</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="207" x2="303" y1="143.6733" y2="143.6733"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="207" x2="303" y1="151.6733" y2="151.6733"/><ellipse cx="217" cy="162.6733" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="75" x="223" y="165.8838">build_part1();</text><ellipse cx="217" cy="175.478" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="75" x="223" y="178.6885">build_part2();</text><!--MD5=[dda57e407e320ea59bcdebf302f3fff8]
+class ConcreateBuilderA--><rect fill="#2E2E2E" filter="url(#f1gpe783oa1290)" height="103.3921" id="ConcreateBuilderA" style="stroke: #1B1B1B; stroke-width: 1.5;" width="156" x="6" y="252"/><ellipse cx="18.45" cy="270.0867" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M19.0906,274.2429 Q18.2,274.2429 17.4344,273.9773 Q16.6844,273.7117 16.1375,273.196 Q15.6063,272.6804 15.2938,271.8992 Q14.9969,271.1179 14.9969,270.1023 Q14.9969,269.1492 15.2781,268.3835 Q15.575,267.6023 16.1219,267.0398 Q16.6375,266.5085 17.4031,266.2273 Q18.1844,265.9304 19.0906,265.9304 Q19.5906,265.9304 19.9969,265.9929 Q20.4031,266.0398 20.7469,266.1335 Q21.1063,266.2429 21.4031,266.3679 Q21.7,266.4929 21.9188,266.6023 L21.9188,268.5398 L21.6844,268.5398 Q21.5281,268.4148 21.2938,268.2429 Q21.075,268.0554 20.7781,267.8835 Q20.4813,267.7117 20.1375,267.6023 Q19.7938,267.4773 19.4031,267.4773 Q18.9656,267.4773 18.575,267.6179 Q18.1844,267.7429 17.8563,268.071 Q17.5438,268.3679 17.3406,268.8835 Q17.1531,269.3835 17.1531,270.1023 Q17.1531,270.8523 17.3563,271.3679 Q17.575,271.8679 17.8875,272.1492 Q18.2156,272.446 18.6219,272.571 Q19.0281,272.696 19.4188,272.696 Q19.7938,272.696 20.1531,272.5867 Q20.5281,272.4773 20.8406,272.2742 Q21.1063,272.1335 21.325,271.9617 Q21.5594,271.7742 21.7,271.6492 L21.9188,271.6492 L21.9188,273.5554 Q21.6219,273.696 21.3406,273.821 Q21.075,273.9304 20.7625,274.0085 Q20.3719,274.1179 20.0281,274.1804 Q19.6844,274.2429 19.0906,274.2429 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="133" x="27.55" y="267.2104">«PassangerCarBuilder»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="107" x="40.55" y="280.8638">ConcreateBuilderA</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="7" x2="161" y1="288.1733" y2="288.1733"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="296.1733"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="101" x="23" y="302.3838">ProductA product;</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="7" x2="161" y1="308.978" y2="308.978"/><ellipse cx="17" cy="319.978" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="23" y="323.1885">build_part1();</text><ellipse cx="17" cy="332.7827" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="23" y="335.9932">build_part2();</text><ellipse cx="17" cy="345.5874" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="133" x="23" y="348.7979">ProductA get_product();</text><!--MD5=[065f12071f88893829853da66a47db85]
+class ConcreateBuilderB--><rect fill="#2E2E2E" filter="url(#f1gpe783oa1290)" height="103.3921" id="ConcreateBuilderB" style="stroke: #1B1B1B; stroke-width: 1.5;" width="157" x="347.5" y="252"/><ellipse cx="370.3" cy="270.0867" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M370.9406,274.2429 Q370.05,274.2429 369.2844,273.9773 Q368.5344,273.7117 367.9875,273.196 Q367.4563,272.6804 367.1438,271.8992 Q366.8469,271.1179 366.8469,270.1023 Q366.8469,269.1492 367.1281,268.3835 Q367.425,267.6023 367.9719,267.0398 Q368.4875,266.5085 369.2531,266.2273 Q370.0344,265.9304 370.9406,265.9304 Q371.4406,265.9304 371.8469,265.9929 Q372.2531,266.0398 372.5969,266.1335 Q372.9563,266.2429 373.2531,266.3679 Q373.55,266.4929 373.7688,266.6023 L373.7688,268.5398 L373.5344,268.5398 Q373.3781,268.4148 373.1438,268.2429 Q372.925,268.0554 372.6281,267.8835 Q372.3313,267.7117 371.9875,267.6023 Q371.6438,267.4773 371.2531,267.4773 Q370.8156,267.4773 370.425,267.6179 Q370.0344,267.7429 369.7063,268.071 Q369.3938,268.3679 369.1906,268.8835 Q369.0031,269.3835 369.0031,270.1023 Q369.0031,270.8523 369.2063,271.3679 Q369.425,271.8679 369.7375,272.1492 Q370.0656,272.446 370.4719,272.571 Q370.8781,272.696 371.2688,272.696 Q371.6438,272.696 372.0031,272.5867 Q372.3781,272.4773 372.6906,272.2742 Q372.9563,272.1335 373.175,271.9617 Q373.4094,271.7742 373.55,271.6492 L373.7688,271.6492 L373.7688,273.5554 Q373.4719,273.696 373.1906,273.821 Q372.925,273.9304 372.6125,274.0085 Q372.2219,274.1179 371.8781,274.1804 Q371.5344,274.2429 370.9406,274.2429 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="110" x="382.2" y="267.2104">«SportsCarBuilder»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="107" x="383.7" y="280.8638">ConcreateBuilderB</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="348.5" x2="503.5" y1="288.1733" y2="288.1733"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="355.5" y="296.1733"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="364.5" y="302.3838">ProductB product;</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="348.5" x2="503.5" y1="308.978" y2="308.978"/><ellipse cx="358.5" cy="319.978" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="364.5" y="323.1885">build_part1();</text><ellipse cx="358.5" cy="332.7827" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="364.5" y="335.9932">build_part2();</text><ellipse cx="358.5" cy="345.5874" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="134" x="364.5" y="348.7979">ProductB get_product();</text><!--MD5=[5f2bd739ea74403c351f6842fe5c7ba2]
+class ProductA--><rect fill="#2E2E2E" filter="url(#f1gpe783oa1290)" height="52.1733" id="ProductA" style="stroke: #1B1B1B; stroke-width: 1.5;" width="115" x="197.5" y="277.5"/><ellipse cx="209.5" cy="295.5867" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M210.1406,299.7429 Q209.25,299.7429 208.4844,299.4773 Q207.7344,299.2117 207.1875,298.696 Q206.6563,298.1804 206.3438,297.3992 Q206.0469,296.6179 206.0469,295.6023 Q206.0469,294.6492 206.3281,293.8835 Q206.625,293.1023 207.1719,292.5398 Q207.6875,292.0085 208.4531,291.7273 Q209.2344,291.4304 210.1406,291.4304 Q210.6406,291.4304 211.0469,291.4929 Q211.4531,291.5398 211.7969,291.6335 Q212.1563,291.7429 212.4531,291.8679 Q212.75,291.9929 212.9688,292.1023 L212.9688,294.0398 L212.7344,294.0398 Q212.5781,293.9148 212.3438,293.7429 Q212.125,293.5554 211.8281,293.3835 Q211.5313,293.2117 211.1875,293.1023 Q210.8438,292.9773 210.4531,292.9773 Q210.0156,292.9773 209.625,293.1179 Q209.2344,293.2429 208.9063,293.571 Q208.5938,293.8679 208.3906,294.3835 Q208.2031,294.8835 208.2031,295.6023 Q208.2031,296.3523 208.4063,296.8679 Q208.625,297.3679 208.9375,297.6492 Q209.2656,297.946 209.6719,298.071 Q210.0781,298.196 210.4688,298.196 Q210.8438,298.196 211.2031,298.0867 Q211.5781,297.9773 211.8906,297.7742 Q212.1563,297.6335 212.375,297.4617 Q212.6094,297.2742 212.75,297.1492 L212.9688,297.1492 L212.9688,299.0554 Q212.6719,299.196 212.3906,299.321 Q212.125,299.4304 211.8125,299.5085 Q211.4219,299.6179 211.0781,299.6804 Q210.7344,299.7429 210.1406,299.7429 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="93" x="218.5" y="292.7104">«PassengerCar»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="51" x="239.5" y="306.3638">ProductA</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="198.5" x2="311.5" y1="313.6733" y2="313.6733"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="198.5" x2="311.5" y1="321.6733" y2="321.6733"/><!--MD5=[7d8bbe38ae7838c4b875a286fbfa656f]
+class ProductB--><rect fill="#2E2E2E" filter="url(#f1gpe783oa1290)" height="52.1733" id="ProductB" style="stroke: #1B1B1B; stroke-width: 1.5;" width="92" x="540" y="277.5"/><ellipse cx="552" cy="295.5867" fill="#BB6600" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M552.6406,299.7429 Q551.75,299.7429 550.9844,299.4773 Q550.2344,299.2117 549.6875,298.696 Q549.1563,298.1804 548.8438,297.3992 Q548.5469,296.6179 548.5469,295.6023 Q548.5469,294.6492 548.8281,293.8835 Q549.125,293.1023 549.6719,292.5398 Q550.1875,292.0085 550.9531,291.7273 Q551.7344,291.4304 552.6406,291.4304 Q553.1406,291.4304 553.5469,291.4929 Q553.9531,291.5398 554.2969,291.6335 Q554.6563,291.7429 554.9531,291.8679 Q555.25,291.9929 555.4688,292.1023 L555.4688,294.0398 L555.2344,294.0398 Q555.0781,293.9148 554.8438,293.7429 Q554.625,293.5554 554.3281,293.3835 Q554.0313,293.2117 553.6875,293.1023 Q553.3438,292.9773 552.9531,292.9773 Q552.5156,292.9773 552.125,293.1179 Q551.7344,293.2429 551.4063,293.571 Q551.0938,293.8679 550.8906,294.3835 Q550.7031,294.8835 550.7031,295.6023 Q550.7031,296.3523 550.9063,296.8679 Q551.125,297.3679 551.4375,297.6492 Q551.7656,297.946 552.1719,298.071 Q552.5781,298.196 552.9688,298.196 Q553.3438,298.196 553.7031,298.0867 Q554.0781,297.9773 554.3906,297.7742 Q554.6563,297.6335 554.875,297.4617 Q555.1094,297.2742 555.25,297.1492 L555.4688,297.1492 L555.4688,299.0554 Q555.1719,299.196 554.8906,299.321 Q554.625,299.4304 554.3125,299.5085 Q553.9219,299.6179 553.5781,299.6804 Q553.2344,299.7429 552.6406,299.7429 Z "/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="561" y="292.7104">«SportsCar»</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="51" x="570.5" y="306.3638">ProductB</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="541" x2="631" y1="313.6733" y2="313.6733"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="541" x2="631" y1="321.6733" y2="321.6733"/><!--MD5=[6ab72f33c54f40b1283a4771c3829f11]
+link Client to Director--><path d="M350.11,41.19 C360.07,55.24 375.22,76.63 389.22,96.39 " fill="none" id="Client-&gt;Director" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="392.37,100.84,390.4451,91.1811,389.4855,96.756,383.9106,95.7963,392.37,100.84" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[fbed46af2e6e443050b1ade70612b9c0]
+link Client to Builder--><path d="M328.02,41.19 C317.05,56.85 299.72,81.62 284.69,103.09 " fill="none" id="Client-&gt;Builder" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="281.71,107.34,290.1576,102.2766,284.585,103.2492,283.6124,97.6766,281.71,107.34" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[35d28d2b418aef5be99c017cb2811424]
+reverse link Builder to ConcreateBuilderA--><path d="M197.67,199.47 C179.07,216.32 158.48,234.99 139.98,251.76 " fill="none" id="Builder&lt;-ConcreateBuilderA" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="193.21,194.06,212.73,185.81,202.61,204.43,193.21,194.06" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[852a59d83eca03ac1d993e1a4bf69020]
+reverse link Builder to ConcreateBuilderB--><path d="M312.33,199.47 C330.93,216.32 351.52,234.99 370.02,251.76 " fill="none" id="Builder&lt;-ConcreateBuilderB" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="307.39,204.43,297.27,185.81,316.79,194.06,307.39,204.43" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[8cbbc085c1005e5674789061a527b80a]
+link Builder to Director--><path d="M317.44,146.5 C320.22,146.5 326.82,146.5 326.82,146.5 " fill="none" id="Builder-Director" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#777777" points="338.82,146.5,332.82,142.5,326.82,146.5,332.82,150.5,338.82,146.5" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="304.18,146.5,313.18,150.5,309.18,146.5,313.18,142.5,304.18,146.5" style="stroke: #FFFFFF; stroke-width: 1.0;"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="309.18" x2="317.18" y1="146.5" y2="146.5"/><!--MD5=[5c800f7c638b16260c94e1c44f9b13f9]
+link ConcreateBuilderA to ProductA--><path d="M162.15,303.5 C172.14,303.5 182.12,303.5 192.11,303.5 " fill="none" id="ConcreateBuilderA-&gt;ProductA" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="197.33,303.5,188.33,299.5,192.33,303.5,188.33,307.5,197.33,303.5" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[dc10c3aecb69fe2e3c18799d1588b853]
+link ConcreateBuilderB to ProductB--><path d="M504.75,303.5 C514.75,303.5 524.75,303.5 534.75,303.5 " fill="none" id="ConcreateBuilderB-&gt;ProductB" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="539.98,303.5,530.98,299.5,534.98,303.5,530.98,307.5,539.98,303.5" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[5c5b1e71e815ca7b167b87465b3a52c3]
+@startuml builder_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+
+class Director <<CarDirector>> {
+    - Builder builder;
+    + set_builder(Builder *bldr);
+    + build_product();
+}
+
+abstract class Builder <<CarBuilder>> {
+    + {abstract} build_part1();
+    + {abstract} build_part2();
+}
+
+class ConcreateBuilderA <<PassangerCarBuilder>> {
+    - ProductA product;
+    + build_part1();
+    + build_part2();
+    + ProductA get_product();
+}
+
+class ConcreateBuilderB <<SportsCarBuilder>> {
+    - ProductB product;
+    + build_part1();
+    + build_part2();
+    + ProductB get_product();
+}
+
+class ProductA <<PassengerCar>> {
+}
+
+class ProductB <<SportsCar>> {
+}
+
+Client -down-> Director
+Client -down-> Builder
+Builder <|- - ConcreateBuilderA
+Builder <|- - ConcreateBuilderB
+Builder <-left-o Director
+ConcreateBuilderA -> ProductA
+ConcreateBuilderB -> ProductB
+
+@enduml
+
+@startuml builder_pattern
+
+
+
+
+
+
+
+
+
+
+skinparam stereotypeCBackgroundColor BB6600
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor BB6600
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor BB6600
+  endColor 662200
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+
+class Director <<CarDirector>> {
+    - Builder builder;
+    + set_builder(Builder *bldr);
+    + build_product();
+}
+
+abstract class Builder <<CarBuilder>> {
+    + {abstract} build_part1();
+    + {abstract} build_part2();
+}
+
+class ConcreateBuilderA <<PassangerCarBuilder>> {
+    - ProductA product;
+    + build_part1();
+    + build_part2();
+    + ProductA get_product();
+}
+
+class ConcreateBuilderB <<SportsCarBuilder>> {
+    - ProductB product;
+    + build_part1();
+    + build_part2();
+    + ProductB get_product();
+}
+
+class ProductA <<PassengerCar>> {
+}
+
+class ProductB <<SportsCar>> {
+}
+
+Client -down-> Director
+Client -down-> Builder
+Builder <|- - ConcreateBuilderA
+Builder <|- - ConcreateBuilderB
+Builder <-left-o Director
+ConcreateBuilderA -> ProductA
+ConcreateBuilderB -> ProductB
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 15:05:57 IST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.8+10-post-Ubuntu-0ubuntu120.04
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: IN
+--></g></svg>
