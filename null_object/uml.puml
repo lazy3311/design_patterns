@@ -1,0 +1,26 @@
+@startuml null_object_pattern
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+allow_mixing
+rectangle Client #DarkOliveGreen
+
+abstract class AbstractObject <<Customer>> {
+    + {abstract} request();
+}
+
+class RealObject <<RealCustomer>> {
+    + request();
+}
+
+class NullObject <<NullCustomer>> {
+    + request();
+}
+
+Client -right-> AbstractObject
+AbstractObject <|-- RealObject
+AbstractObject <|-- NullObject
+note right of NullObject : do nothing
+
+@enduml
