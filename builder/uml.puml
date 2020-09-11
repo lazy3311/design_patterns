@@ -38,11 +38,12 @@ class ProductB <<SportsCar>> {
 }
 
 Client -down-> Director
-Client -down-> Builder
+Client .down.> ConcreateBuilderA
+Client .down.> ConcreateBuilderB : get_product()
 Builder <|-- ConcreateBuilderA
 Builder <|-- ConcreateBuilderB
-Builder <-left-o Director
-ConcreateBuilderA -> ProductA
-ConcreateBuilderB -> ProductB
+Builder <-right-o Director
+ConcreateBuilderA -down-> ProductA
+ConcreateBuilderB -down-> ProductB
 
 @enduml
